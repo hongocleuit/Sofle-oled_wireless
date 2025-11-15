@@ -90,7 +90,7 @@ layers:
   - F12
   - LEFT SHIFT
   - Ctl+A
-  - LCTRL
+  - {t: ▽, type: trans}
   - ''
   - ''
   - CLCK
