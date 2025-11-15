@@ -1,7 +1,7 @@
 layout: {zmk_keyboard: sofle}
 layers:
   default: [ESC, '1', '2', '3', '4', '5', '6', '7', '8', '9', '0', BACKSPACE, TAB, Q, W, E, R, T, Y, U, I, O, P, '[', LEFT SHIFT, A, S, D, F, G, H, J, K, L, ;, '''',
-    RCTRL, Z, X, C, V, B, MUTE, RGB TOG, N, M, ',', ., /, ']', raise, LEFT WIN, LEFT ALT, lower, SPACE, ENTER, raise, Ctl+Alt+SPACE, DEL, RCTRL]
+    RCTRL, Z, X, C, V, B, MUTE, RGB TOG, N, M, ',', ., /, ']', RCTRL, LEFT WIN, raise, lower, SPACE, ENTER, raise, Ctl+Alt+SPACE, DEL, RCTRL]
   lower:
   - {t: ▽, type: trans}
   - Sft+!
@@ -114,9 +114,9 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {type: held}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -175,9 +175,9 @@ layers:
   - ''
   - ''
   - ''
+  - ''
+  - ''
   - {type: held}
-  - ''
-  - ''
   - {type: held}
   - ''
   - ''
