@@ -64,7 +64,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   raise:
-  - BT CLR
+  - {t: ▽, type: trans}
   - F1
   - F2
   - F3
@@ -79,7 +79,7 @@ layers:
   - {t: ▽, type: trans}
   - INS
   - PSCRN
-  - CMENU
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - PG UP
