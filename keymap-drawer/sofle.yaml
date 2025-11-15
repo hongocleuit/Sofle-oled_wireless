@@ -76,7 +76,7 @@ layers:
   - F9
   - F10
   - F11
-  - TAB
+  - Alt+TAB
   - ''
   - Alt+Sft+W
   - ''
@@ -100,7 +100,7 @@ layers:
   - RIGHT
   - ''
   - Ctl+PRINTSCREEN
-  - RCTRL
+  - Alt+RCTRL
   - Ctl+Z
   - Ctl+X
   - Ctl+C
