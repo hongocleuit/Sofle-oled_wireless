@@ -4,55 +4,55 @@ layers:
     RCTRL, Z, X, C, V, B, MUTE, RGB TOG, N, M, ',', ., /, ']', raise, LEFT WIN, LEFT ALT, lower, SPACE, ENTER, raise, Ctl+Alt+SPACE, DEL, RCTRL]
   lower:
   - {t: ▽, type: trans}
-  - F1
-  - F2
-  - F3
-  - F4
-  - F5
-  - F6
-  - F7
-  - F8
-  - F9
-  - F10
+  - Sft+!
+  - Sft+F2
+  - Sft+#
+  - Sft+$
+  - Sft+%
+  - Sft+^
+  - Sft+&
+  - Sft+*
+  - Sft+(
+  - Sft+)
   - F11
   - '`'
-  - '1'
-  - '2'
+  - '`'
+  - Ctl+RIGHT
   - '3'
   - '4'
   - '5'
-  - '6'
-  - '7'
+  - '['
+  - ']'
   - '8'
   - '9'
   - '0'
-  - F12
+  - +
   - {t: ▽, type: trans}
-  - '!'
-  - '@'
-  - '#'
-  - $
-  - '%'
-  - ^
-  - '&'
-  - KP MULTIPLY
-  - (
-  - )
-  - '|'
-  - {t: ▽, type: trans}
+  - HOME
+  - END
   - '='
+  - _
+  - '|'
+  - LEFT
+  - DOWN
+  - UP
+  - RIGHT
+  - ':'
+  - '"'
+  - {t: ▽, type: trans}
+  - '~'
   - '-'
   - KP PLUS
   - '{'
   - '}'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '['
-  - ']'
-  - ;
-  - ':'
+  - '{'
+  - '}'
+  - <
+  - '>'
+  - '?'
   - \
-  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
