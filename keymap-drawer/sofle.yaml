@@ -64,7 +64,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   raise:
-  - {t: ▽, type: trans}
+  - ''
   - F1
   - F2
   - F3
@@ -76,73 +76,62 @@ layers:
   - F9
   - F10
   - F11
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
   - PG UP
   - HOME
   - UP
   - END
-  - {t: ▽, type: trans}
+  - ''
   - F12
-  - {t: ▽, type: trans}
+  - LEFT SHIFT
   - Ctl+Sft+A
   - LCTRL
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - ''
+  - ''
   - CLCK
   - PG DN
   - LEFT
   - DOWN
   - RIGHT
-  - {t: ▽, type: trans}
+  - ''
   - Ctl+PRINTSCREEN
-  - {t: ▽, type: trans}
+  - RCTRL
   - Ctl+Z
   - Ctl+X
   - Ctl+C
   - Ctl+V
-  - {t: ▽, type: trans}
+  - ''
   - {t: '4', h: toggle}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {type: held}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - RCTRL
+  - LEFT WIN
+  - {t: LEFT ALT, type: held}
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
   adjust:
-  - BT CLR
-  - {t: BT, h: '0'}
-  - {t: BT, h: '1'}
-  - {t: BT, h: '2'}
-  - {t: BT, h: '3'}
-  - {t: BT, h: '4'}
-  - W
   - ''
   - ''
   - ''
   - ''
   - ''
-  - EP TOG
-  - RGB HUD
-  - RGB HUI
-  - RGB SAD
-  - RGB SAI
-  - RGB EFF
+  - ''
+  - {t: ▽, type: trans}
   - ''
   - ''
   - ''
@@ -150,8 +139,19 @@ layers:
   - ''
   - ''
   - ''
-  - RGB BRD
-  - RGB BRI
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - LEFT SHIFT
+  - ''
+  - ''
   - ''
   - ''
   - ''
