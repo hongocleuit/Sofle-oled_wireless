@@ -85,9 +85,9 @@
 
             bindings = <
 &kp ESCAPE      &kp F1     &kp F2         &kp F3        &kp F4     &kp F5                                     &kp F6     &kp F7    &kp F8    &kp F9     &kp F10  &kp F11
-&kp TAB         &none      &kp LA(LS(W))  &none         &none      &kp LA(LS(T))                              &kp PG_UP  &kp HOME  &kp UP    &kp END    &none    &kp F12
+&kp LA(TAB)     &none      &kp LA(LS(W))  &none         &none      &kp LA(LS(T))                              &kp PG_UP  &kp HOME  &kp UP    &kp END    &none    &kp F12
 &kp LEFT_SHIFT  &kp LC(A)  &none          &none         &none      &none                                      &kp PG_DN  &kp LEFT  &kp DOWN  &kp RIGHT  &none    &kp LC(PRINTSCREEN)
-&kp RCTRL       &kp LC(Z)  &kp LC(X)      &kp LC(C)     &kp LC(V)  &none          &to 4                &none  &none      &none     &none     &none      &none    &none
+&kp LA(RCTRL)   &kp LC(Z)  &kp LC(X)      &kp LC(C)     &kp LC(V)  &none          &to 4                &none  &none      &none     &none     &none      &none    &none
                            &kp RCTRL      &kp LEFT_WIN  &none      &none          &kp LA(LC(SPACE))    &none  &none      &none     &none     &none
             >;
 
