@@ -3,7 +3,7 @@ layers:
   default: ['`', '1', '2', '3', '4', '5', '6', '7', '8', '9', '0', BACKSPACE, ESC, Q, W, E, R, T, Y, U, I, O, P, '[', TAB, A, S, D, F, G, H, J, K, L, ;, '''', LEFT
       SHIFT, Z, X, C, V, B, MUTE, RGB TOG, N, M, ',', ., /, RIGHT SHIFT, RCTRL, LEFT WIN, raise, lower, SPACE, ENTER, raise, Ctl+Alt+SPACE, DEL, RCTRL]
   lower:
-  - ESCAPE
+  - Sft+~
   - Sft+!
   - Sft+F2
   - Sft+#
@@ -15,7 +15,7 @@ layers:
   - Sft+(
   - Sft+)
   - ''
-  - TAB
+  - ESC
   - '`'
   - Ctl+RIGHT
   - Alt+Sft+3
@@ -23,11 +23,11 @@ layers:
   - ''
   - '['
   - ']'
-  - Sft+-
-  - '='
+  - Sft+(
+  - Sft+)
   - '-'
   - +
-  - LEFT SHIFT
+  - TAB
   - HOME
   - END
   - '='
@@ -39,8 +39,8 @@ layers:
   - RIGHT
   - ':'
   - '"'
-  - RCTRL
-  - '~'
+  - LEFT SHIFT
+  - ''
   - ''
   - ''
   - ''
@@ -64,7 +64,7 @@ layers:
   - ''
   - ''
   raise:
-  - ESCAPE
+  - '~'
   - F1
   - F2
   - F3
@@ -76,11 +76,11 @@ layers:
   - F9
   - F10
   - F11
-  - Alt+TAB
-  - ''
+  - Alt+ESC
+  - Alt+Q
   - Alt+Sft+W
   - ''
-  - ''
+  - Alt+R
   - Alt+Sft+T
   - PG UP
   - HOME
@@ -88,7 +88,7 @@ layers:
   - END
   - ''
   - F12
-  - LEFT SHIFT
+  - Alt+TAB
   - Ctl+A
   - ''
   - ''
