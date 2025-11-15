@@ -18,9 +18,9 @@ layers:
   - TAB
   - '`'
   - Ctl+RIGHT
-  - '3'
-  - '4'
-  - '5'
+  - Alt+Sft+3
+  - Alt+Sft+4
+  - {t: ▽, type: trans}
   - '['
   - ']'
   - Sft+-
@@ -77,8 +77,8 @@ layers:
   - F10
   - F11
   - {t: ▽, type: trans}
-  - INS
-  - PSCRN
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -86,20 +86,20 @@ layers:
   - HOME
   - UP
   - END
-  - '0'
+  - {t: ▽, type: trans}
   - F12
   - {t: ▽, type: trans}
   - Ctl+Sft+A
   - LCTRL
-  - LSHFT
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - CLCK
   - PG DN
   - LEFT
   - DOWN
   - RIGHT
-  - DEL
-  - BSPC
+  - {t: ▽, type: trans}
+  - Ctl+PRINTSCREEN
   - {t: ▽, type: trans}
   - Ctl+Z
   - Ctl+X
