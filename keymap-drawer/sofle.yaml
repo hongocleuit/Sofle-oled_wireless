@@ -14,13 +14,13 @@ layers:
   - Sft+*
   - Sft+(
   - Sft+)
-  - {t: ▽, type: trans}
+  - ''
   - TAB
   - '`'
   - Ctl+RIGHT
   - Alt+Sft+3
   - Alt+Sft+4
-  - {t: ▽, type: trans}
+  - ''
   - '['
   - ']'
   - Sft+-
@@ -41,28 +41,28 @@ layers:
   - '"'
   - RCTRL
   - '~'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - ''
+  - ''
+  - ''
   - Ctl+LEFT
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - ''
+  - ''
   - '{'
   - '}'
   - Sft+<
   - Sft+>
   - Sft+?
   - \
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - ''
+  - ''
+  - ''
   - {type: held}
-  - {t: ▽, type: trans}
+  - ''
   - BACKSPACE
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - ''
+  - ''
+  - ''
+  - ''
   raise:
   - ESCAPE
   - F1
@@ -79,7 +79,7 @@ layers:
   - TAB
   - ''
   - Alt+Sft+W
-  - {t: ▽, type: trans}
+  - ''
   - ''
   - Alt+Sft+T
   - PG UP
@@ -90,10 +90,10 @@ layers:
   - F12
   - LEFT SHIFT
   - Ctl+A
-  - {t: ▽, type: trans}
   - ''
   - ''
-  - {t: ▽, type: trans}
+  - ''
+  - ''
   - PG DN
   - LEFT
   - DOWN
@@ -138,7 +138,7 @@ layers:
   - ''
   - LOCK
   - ''
-  - Ctl+Alt+Q
+  - LOCK
   - ''
   - ''
   - ''
