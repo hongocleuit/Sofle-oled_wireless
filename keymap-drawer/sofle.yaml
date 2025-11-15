@@ -58,13 +58,13 @@ layers:
   - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - BACKSPACE
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   raise:
-  - ''
+  - ESCAPE
   - F1
   - F2
   - F3
@@ -76,12 +76,12 @@ layers:
   - F9
   - F10
   - F11
+  - TAB
   - ''
+  - Alt+Sft+W
+  - {t: ▽, type: trans}
   - ''
-  - ''
-  - ''
-  - ''
-  - ''
+  - Alt+Sft+T
   - PG UP
   - HOME
   - UP
@@ -93,7 +93,7 @@ layers:
   - {t: ▽, type: trans}
   - ''
   - ''
-  - CLCK
+  - {t: ▽, type: trans}
   - PG DN
   - LEFT
   - DOWN
@@ -136,6 +136,7 @@ layers:
   - ''
   - ''
   - ''
+  - LOCK
   - ''
   - ''
   - ''
@@ -143,10 +144,9 @@ layers:
   - ''
   - ''
   - ''
-  - ''
-  - ''
-  - ''
-  - ''
+  - Ctl+Alt+Gui+LEFT ARROW
+  - Ctl+Alt+UP ARROW
+  - Ctl+Alt+Gui+RIGHT
   - ''
   - ''
   - LEFT SHIFT
@@ -156,9 +156,9 @@ layers:
   - ''
   - ''
   - ''
-  - ''
-  - ''
-  - ''
+  - Ctl+Alt+LEFT ARROW
+  - Ctl+Alt+DOWN ARROW
+  - Alt+RIGHT
   - ''
   - ''
   - ''
