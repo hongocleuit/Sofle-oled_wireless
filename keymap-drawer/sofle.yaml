@@ -24,8 +24,8 @@ layers:
   - '['
   - ']'
   - '8'
-  - '9'
-  - '0'
+  - '='
+  - '-'
   - +
   - {t: ▽, type: trans}
   - HOME
@@ -65,8 +65,8 @@ layers:
   - {t: ▽, type: trans}
   raise:
   - BT CLR
-  - {t: BT, h: '0'}
-  - {t: BT, h: '1'}
+  - F1
+  - F2
   - {t: BT, h: '2'}
   - {t: BT, h: '3'}
   - {t: BT, h: '4'}
@@ -83,13 +83,13 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - PG UP
-  - {t: ▽, type: trans}
+  - HOME
   - UP
-  - {t: ▽, type: trans}
+  - END
   - '0'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - LALT
+  - Ctl+Sft+A
   - LCTRL
   - LSHFT
   - {t: ▽, type: trans}
@@ -101,10 +101,10 @@ layers:
   - DEL
   - BSPC
   - {t: ▽, type: trans}
-  - UNDO
-  - CUT
-  - COPY
-  - PASTE
+  - Ctl+Z
+  - Ctl+X
+  - Ctl+C
+  - Ctl+V
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
