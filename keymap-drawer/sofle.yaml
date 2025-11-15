@@ -58,7 +58,7 @@ layers:
   - ''
   - {type: held}
   - ''
-  - BACKSPACE
+  - Alt+SPACE
   - ''
   - ''
   - ''
@@ -118,7 +118,7 @@ layers:
   - LEFT WIN
   - {type: held}
   - ''
-  - Alt+Ctl+SPACE
+  - BACKSPACE
   - ''
   - ''
   - ''
