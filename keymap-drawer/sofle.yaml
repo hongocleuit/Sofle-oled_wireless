@@ -53,13 +53,13 @@ layers:
   - Sft+>
   - Sft+?
   - \
-  - ''
-  - ''
-  - ''
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {type: held}
-  - ''
+  - {t: ▽, type: trans}
   - Gui+SPACE
-  - ''
+  - {t: ▽, type: trans}
   - ''
   - ''
   - ''
@@ -76,7 +76,7 @@ layers:
   - F9
   - F10
   - F11
-  - Alt+ESC
+  - ESC
   - Alt+Q
   - Alt+Sft+W
   - ''
@@ -88,7 +88,7 @@ layers:
   - END
   - ''
   - F12
-  - Alt+TAB
+  - Gui+TAB
   - Gui+A
   - ''
   - ''
@@ -100,7 +100,7 @@ layers:
   - RIGHT
   - ''
   - Ctl+PRINTSCREEN
-  - Alt+RCTRL
+  - Gui+LEFT SHIFT
   - Gui+Z
   - Gui+X
   - Gui+C
@@ -114,10 +114,10 @@ layers:
   - ''
   - ''
   - ''
-  - ''
-  - ''
-  - ''
-  - ''
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - BACKSPACE
   - ''
   - {type: held}
