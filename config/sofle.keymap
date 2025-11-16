@@ -37,9 +37,8 @@
             #binding-cells = <2>;
             tapping-term-ms = <400>;
             flavor = "balanced";
-            hold-while-undecided;
-            hold-while-undecided-linger;
             quick-tap-ms = <150>;
+            retro-tap;
         };
     };
 
