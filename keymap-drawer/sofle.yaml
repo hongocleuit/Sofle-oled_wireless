@@ -198,27 +198,27 @@ layers:
   - LOCK
   - ''
   - LOCK
+  - Ctl+Alt+Gui+LEFT
+  - Ctl+Gui+UP
+  - Gui+Alt+Ctl+RIGHT
+  - ''
+  - ''
+  - '&mkp LCLK'
+  - '&mmv MOVE_UP'
+  - '&mkp RCLK'
   - ''
   - ''
   - ''
   - ''
-  - ''
-  - Ctl+Alt+Gui+LEFT ARROW
-  - Ctl+Gui+UP ARROW
-  - Ctl+Alt+Gui+RIGHT
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - Ctl+Gui+LEFT ARROW
+  - Ctl+Gui+LEFT
   - Ctl+Gui+DOWN ARROW
   - Ctl+Gui+RIGHT
   - ''
+  - ''
+  - '&mmv MOVE_LEFT'
+  - '&mmv MOVE_DOWN'
+  - '&mmv MOVE_LEFT'
+  - '&msc SCRL_UP'
   - ''
   - ''
   - ''
@@ -232,7 +232,7 @@ layers:
   - ''
   - ''
   - ''
-  - ''
+  - '&msc SCRL_DOWN'
   - ''
   - ''
   - ''
