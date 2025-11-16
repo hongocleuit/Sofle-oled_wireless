@@ -36,10 +36,9 @@
 
             #binding-cells = <2>;
             tapping-term-ms = <250>;
-            quick-tap-ms = <140>;
             flavor = "balanced";
             hold-while-undecided;
-            hold-trigger-key-positions = <27 28>;
+            hold-while-undecided-linger;
         };
     };
 
