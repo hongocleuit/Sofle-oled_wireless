@@ -45,7 +45,7 @@
 &kp ESC         &kp Q   &kp W      &kp E         &kp R         &kp T                                     &kp Y      &kp U              &kp I      &kp O      &kp P     &kp LEFT_BRACKET
 &kp TAB         &kp A   &kp S      &kp D         &kp F         &kp G                                     &kp H      &kp J              &kp K      &kp L      &kp SEMI  &kp SQT
 &kp LEFT_SHIFT  &kp Z   &kp X      &kp C         &kp V         &kp B      &kp C_MUTE    &rgb_ug RGB_TOG  &kp N      &kp M              &kp COMMA  &kp DOT    &kp FSLH  &kp RIGHT_SHIFT
-                        &kp RCTRL  &kp LEFT_WIN  &kp LEFT_ALT  &mo LOWER  &kp SPACE     &kp ENTER        &mo RAISE  &kp LC(LG(SPACE))  &kp DEL    &kp RCTRL
+                        &kp RCTRL  &kp LEFT_ALT  &kp LEFT_GUI  &mo LOWER  &kp SPACE     &kp ENTER        &mo RAISE  &kp LC(LG(SPACE))  &kp DEL    &kp RCTRL
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
@@ -64,7 +64,7 @@
 
             bindings = <
 &kp RS(TILDE)   &kp LS(EXCLAMATION)  &kp LS(F2)     &kp LS(POUND)         &kp LS(DOLLAR)        &kp LS(PERCENT)                          &kp RS(CARET)     &kp LS(AMPERSAND)  &kp LS(ASTERISK)          &kp LS(LEFT_PARENTHESIS)   &kp LS(RIGHT_PARENTHESIS)  &none
-&kp ESC         &kp GRAVE            &kp LC(RIGHT)  &kp LA(RS(NUMBER_3))  &kp LA(LS(NUMBER_4))  &none                                    &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LS(LEFT_PARENTHESIS)  &kp LS(RIGHT_PARENTHESIS)  &kp MINUS                  &kp PLUS
+&kp ESC         &kp GRAVE            &kp LC(RIGHT)  &kp RS(LG(NUMBER_3))  &kp LS(LG(NUMBER_4))  &none                                    &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LS(LEFT_PARENTHESIS)  &kp LS(RIGHT_PARENTHESIS)  &kp MINUS                  &kp PLUS
 &kp TAB         &kp HOME             &kp END        &kp EQUAL             &kp UNDERSCORE        &kp PIPE                                 &kp LEFT          &kp DOWN           &kp UP                    &kp RIGHT                  &kp COLON                  &kp DOUBLE_QUOTES
 &kp LEFT_SHIFT  &none                &none          &none                 &none                 &kp LC(LEFT)     &none    &none          &kp LEFT_BRACE    &kp RIGHT_BRACE    &kp LS(LESS_THAN)         &kp LS(GREATER_THAN)       &kp LS(QUESTION)           &kp BACKSLASH
                                      &none          &none                 &none                 &none            &none    &kp LA(SPACE)  &none             &none              &none                     &none
@@ -84,11 +84,11 @@
             //                |      |       |       |      |      |  |      |      |      |       |      |
 
             bindings = <
-&kp TILDE      &kp F1     &kp F2         &kp F3        &kp F4     &kp F5                                 &kp F6     &kp F7    &kp F8    &kp F9     &kp F10  &kp F11
-&kp LA(ESC)    &kp LA(Q)  &kp LA(LS(W))  &none         &kp LA(R)  &kp LA(LS(T))                          &kp PG_UP  &kp HOME  &kp UP    &kp END    &none    &kp F12
-&kp LA(TAB)    &kp LC(A)  &none          &none         &none      &none                                  &kp PG_DN  &kp LEFT  &kp DOWN  &kp RIGHT  &none    &kp LC(PRINTSCREEN)
-&kp LA(RCTRL)  &kp LC(Z)  &kp LC(X)      &kp LC(C)     &kp LC(V)  &none          &to 4            &none  &none      &none     &none     &none      &none    &none
-                          &kp RCTRL      &kp LEFT_WIN  &none      &none          &kp BACKSPACE    &none  &none      &none     &none     &none
+&kp TILDE      &kp F1     &kp F2         &kp F3     &kp F4     &kp F5                                 &kp F6     &kp F7    &kp F8    &kp F9     &kp F10  &kp F11
+&kp LA(ESC)    &kp LA(Q)  &kp LA(LS(W))  &none      &kp LA(R)  &kp LA(LS(T))                          &kp PG_UP  &kp HOME  &kp UP    &kp END    &none    &kp F12
+&kp LA(TAB)    &kp LG(A)  &none          &none      &none      &none                                  &kp PG_DN  &kp LEFT  &kp DOWN  &kp RIGHT  &none    &kp LC(PRINTSCREEN)
+&kp LA(RCTRL)  &kp LG(Z)  &kp LG(X)      &kp LG(C)  &kp LG(V)  &none          &to 4            &none  &none      &none     &none     &none      &none    &none
+                          &none          &none      &none      &none          &kp BACKSPACE    &none  &none      &none     &none     &none
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
