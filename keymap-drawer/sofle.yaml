@@ -1,7 +1,7 @@
 layout: {zmk_keyboard: sofle}
 layers:
   default: ['`', '1', '2', '3', '4', '5', '6', '7', '8', '9', '0', BACKSPACE, ESC, Q, W, E, R, T, Y, U, I, O, P, '[', TAB, A, S, D, F, G, H, J, K, L, ;, '''', LEFT
-      SHIFT, Z, X, C, V, B, MUTE, RGB TOG, N, M, ',', ., /, RIGHT SHIFT, RCTRL, LEFT WIN, LEFT ALT, lower, SPACE, ENTER, raise, Ctl+Gui+SPACE, DEL, RCTRL]
+      SHIFT, Z, X, C, V, B, MUTE, RGB TOG, N, M, ',', ., /, RIGHT SHIFT, RCTRL, LEFT ALT, LEFT GUI, lower, SPACE, ENTER, raise, Ctl+Gui+SPACE, DEL, RCTRL]
   lower:
   - Sft+~
   - Sft+!
@@ -18,8 +18,8 @@ layers:
   - ESC
   - '`'
   - Ctl+RIGHT
-  - Alt+Sft+3
-  - Alt+Sft+4
+  - Sft+Gui+3
+  - Sft+Gui+4
   - ''
   - '['
   - ']'
@@ -89,7 +89,7 @@ layers:
   - ''
   - F12
   - Alt+TAB
-  - Ctl+A
+  - Gui+A
   - ''
   - ''
   - ''
@@ -101,10 +101,10 @@ layers:
   - ''
   - Ctl+PRINTSCREEN
   - Alt+RCTRL
-  - Ctl+Z
-  - Ctl+X
-  - Ctl+C
-  - Ctl+V
+  - Gui+Z
+  - Gui+X
+  - Gui+C
+  - Gui+V
   - ''
   - {t: '4', h: toggle}
   - ''
@@ -114,8 +114,8 @@ layers:
   - ''
   - ''
   - ''
-  - RCTRL
-  - LEFT WIN
+  - ''
+  - ''
   - ''
   - ''
   - BACKSPACE
