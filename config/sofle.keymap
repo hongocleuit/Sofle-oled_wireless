@@ -105,11 +105,11 @@
 
             label = "adjust";
             bindings = <
-&none  &none       &none  &none  &none  &none                            &trans  &none                       &none                   &none                  &none  &kp K_LOCK
-&none  &kp K_LOCK  &none  &none  &none  &none                            &none   &kp LC(LA(LG(LEFT_ARROW)))  &kp LC(LG(UP_ARROW))    &kp LC(LA(LG(RIGHT)))  &none  &none
-&none  &none       &none  &none  &none  &none                            &none   &kp LC(LG(LEFT_ARROW))      &kp LC(LG(DOWN_ARROW))  &kp LC(LG(RIGHT))      &none  &none
-&none  &none       &none  &none  &none  &none  &rgb_ug RGB_TOG    &none  &none   &none                       &none                   &none                  &none  &none
-                   &none  &none  &none  &none  &none              &none  &none   &none                       &none                   &none
+&none  &none       &none                 &none                   &none                  &none                            &trans  &none           &none           &none           &none           &kp K_LOCK
+&none  &kp K_LOCK  &kp LC(LA(LG(LEFT)))  &kp LC(LG(UP))          &kp LG(LA(LC(RIGHT)))  &none                            &none   &mkp LCLK       &mmv MOVE_UP    &mkp RCLK       &none           &none
+&none  &none       &kp LC(LG(LEFT))      &kp LC(LG(DOWN_ARROW))  &kp LC(LG(RIGHT))      &none                            &none   &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_LEFT  &msc SCRL_UP    &none
+&none  &none       &none                 &none                   &none                  &none  &rgb_ug RGB_TOG    &none  &none   &none           &none           &none           &msc SCRL_DOWN  &none
+                   &none                 &none                   &none                  &none  &none              &none  &none   &none           &none           &none
             >;
         };
 
