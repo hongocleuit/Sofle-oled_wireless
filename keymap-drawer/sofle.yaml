@@ -58,7 +58,7 @@ layers:
   - ''
   - {type: held}
   - ''
-  - Alt+SPACE
+  - Gui+SPACE
   - ''
   - ''
   - ''
@@ -145,7 +145,7 @@ layers:
   - ''
   - ''
   - Ctl+Alt+Gui+LEFT ARROW
-  - Ctl+Alt+UP ARROW
+  - Ctl+Gui+UP ARROW
   - Ctl+Alt+Gui+RIGHT
   - ''
   - ''
@@ -156,9 +156,9 @@ layers:
   - ''
   - ''
   - ''
-  - Ctl+Alt+LEFT ARROW
-  - Ctl+Alt+DOWN ARROW
-  - Alt+RIGHT
+  - Ctl+Gui+LEFT ARROW
+  - Ctl+Gui+DOWN ARROW
+  - Ctl+Gui+RIGHT
   - ''
   - ''
   - ''
