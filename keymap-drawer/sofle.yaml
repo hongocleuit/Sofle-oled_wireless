@@ -141,10 +141,10 @@ layers:
   - ''
   - Alt+R
   - Alt+Sft+T
-  - PG UP
   - HOME
+  - Gui+LEFT ARROW
   - UP
-  - END
+  - Gui+RIGHT
   - ''
   - F12
   - Gui+TAB
@@ -153,7 +153,7 @@ layers:
   - ''
   - Gui+F
   - ''
-  - PG DN
+  - END
   - LEFT
   - DOWN
   - RIGHT
