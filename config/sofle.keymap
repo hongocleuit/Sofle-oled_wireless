@@ -93,7 +93,7 @@
             bindings = <
 &kp RS(TILDE)  &kp LS(EXCLAMATION)  &kp LS(AT_SIGN)  &kp LS(POUND)         &kp LS(DOLLAR)        &kp LS(PERCENT)                             &kp RS(CARET)     &kp LS(AMPERSAND)  &kp LS(ASTERISK)          &kp LS(LEFT_PARENTHESIS)   &kp LS(RIGHT_PARENTHESIS)  &kp PIPE
 &trans         &kp GRAVE            &kp LC(RIGHT)    &kp RS(LG(NUMBER_3))  &kp LS(LG(NUMBER_4))  &none                                       &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LS(LEFT_PARENTHESIS)  &kp LS(RIGHT_PARENTHESIS)  &kp MINUS                  &kp PLUS
-&trans         &kp LG(LEFT_ARROW)   &kp LG(RIGHT)    &kp EQUAL             &kp UNDERSCORE        &kp MINUS                                   &kp LEFT          &kp DOWN           &kp UP                    &kp RIGHT                  &kp COLON                  &kp DOUBLE_QUOTES
+&trans         &kp HOME             &kp END          &kp EQUAL             &kp UNDERSCORE        &kp MINUS                                   &kp LEFT          &kp DOWN           &kp UP                    &kp RIGHT                  &kp COLON                  &kp DOUBLE_QUOTES
 &trans         &none                &none            &none                 &none                 &kp LC(LEFT)     &none     &rgb_ug RGB_TOG  &kp LEFT_BRACE    &kp RIGHT_BRACE    &kp LS(LESS_THAN)         &kp LS(GREATER_THAN)       &kp LS(QUESTION)           &kp BACKSLASH
                                     &trans           &trans                &trans                &trans           &trans    &kp LG(SPACE)    &trans            &none              &none                     &none
             >;
