@@ -147,7 +147,7 @@ layers:
   - Gui+Ctl+RIGHT
   - ''
   - F12
-  - Gui+TAB
+  - {t: ▽, type: trans}
   - Gui+A
   - Gui+S
   - Gui+D
