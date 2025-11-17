@@ -225,7 +225,7 @@ layers:
   - ''
   - ''
   - ''
-  - ''
+  - '&remove_previous_word'
   - RGB TOG
   - ''
   - ''
