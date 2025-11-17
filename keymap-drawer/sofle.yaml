@@ -123,7 +123,7 @@ layers:
   - ''
   - ''
   raise:
-  - '~'
+  - ESC
   - F1
   - F2
   - F3
@@ -135,7 +135,7 @@ layers:
   - F9
   - F10
   - F11
-  - ESC
+  - Gui+TAB
   - Alt+Q
   - Alt+Sft+W
   - ''
