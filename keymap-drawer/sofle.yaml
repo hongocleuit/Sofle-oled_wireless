@@ -87,8 +87,8 @@ layers:
   - '-'
   - +
   - {t: ▽, type: trans}
-  - HOME
-  - END
+  - Gui+LEFT ARROW
+  - Gui+RIGHT
   - '='
   - _
   - '-'
@@ -142,9 +142,9 @@ layers:
   - Gui+R
   - Sft+Gui+T
   - HOME
-  - Gui+LEFT ARROW
+  - Gui+Ctl+LEFT ARROW
   - UP
-  - Gui+RIGHT
+  - Gui+Ctl+RIGHT
   - ''
   - F12
   - Gui+TAB
