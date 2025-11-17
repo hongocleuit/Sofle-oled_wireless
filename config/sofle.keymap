@@ -76,7 +76,7 @@
                             &kp RCTRL  &kp LEFT_ALT      &kp LEFT_GUI      &mo 1   &kp SPACE     &kp ENTER        &mo 2   &kp LC(LA(SPACE))  &kp DEL    &kp RCTRL
             >;
 
-            sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP>, <&knob>;
+            sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP>, <&light>;
         };
 
         lower_layer {
@@ -98,7 +98,7 @@
                                     &trans           &trans                &trans                &trans           &trans    &kp LG(SPACE)    &trans            &none              &none                     &none
             >;
 
-            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>, <&light>;
+            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>, <&knob>;
         };
 
         raise_layer {
