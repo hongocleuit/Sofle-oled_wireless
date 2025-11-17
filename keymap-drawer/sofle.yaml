@@ -64,7 +64,7 @@ layers:
   lower:
   - Sft+~
   - Sft+!
-  - Sft+F2
+  - Sft+@
   - Sft+#
   - Sft+$
   - Sft+%
@@ -73,7 +73,7 @@ layers:
   - Sft+*
   - Sft+(
   - Sft+)
-  - ''
+  - '|'
   - {t: ▽, type: trans}
   - '`'
   - Ctl+RIGHT
@@ -91,7 +91,7 @@ layers:
   - END
   - '='
   - _
-  - '|'
+  - '-'
   - LEFT
   - DOWN
   - UP
@@ -151,7 +151,7 @@ layers:
   - Gui+A
   - ''
   - ''
-  - ''
+  - Gui+F
   - ''
   - PG DN
   - LEFT
