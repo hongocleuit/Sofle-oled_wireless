@@ -76,7 +76,7 @@ layers:
   - '|'
   - {t: ▽, type: trans}
   - '`'
-  - Ctl+RIGHT
+  - Alt+RIGHT
   - Sft+Gui+3
   - Sft+Gui+4
   - ''
@@ -103,7 +103,7 @@ layers:
   - ''
   - ''
   - ''
-  - Ctl+LEFT
+  - Alt+LEFT
   - ''
   - RGB TOG
   - '{'
@@ -265,7 +265,7 @@ layers:
   - RGB EFF
   - {t: ▽, type: trans}
   - '&mkp LCLK'
-  - '&mmv MOVE_UP'
+  - '&mmv MOVE_Y(600)'
   - '&mkp RCLK'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -276,9 +276,9 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '&mmv MOVE_LEFT'
-  - '&mmv MOVE_DOWN'
-  - '&mmv MOVE_RIGHT'
+  - '&mmv MOVE_X(600)'
+  - '&mmv MOVE_Y(-600)'
+  - '&mmv MOVE_X(-600)'
   - '&msc SCRL_UP'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
