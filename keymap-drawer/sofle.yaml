@@ -152,7 +152,7 @@ layers:
   - Gui+S
   - Gui+D
   - Gui+F
-  - ''
+  - Gui+G
   - END
   - LEFT
   - DOWN
