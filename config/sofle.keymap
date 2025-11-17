@@ -110,10 +110,10 @@
 
             bindings = <
 &kp RS(TILDE)  &kp LS(EXCLAMATION)  &kp LS(AT_SIGN)  &kp LS(POUND)         &kp LS(DOLLAR)        &kp LS(PERCENT)                             &kp RS(CARET)     &kp LS(AMPERSAND)  &kp LS(ASTERISK)          &kp LS(LEFT_PARENTHESIS)   &kp LS(RIGHT_PARENTHESIS)  &kp PIPE
-&trans         &kp GRAVE            &kp LA(RIGHT)    &kp RS(LG(NUMBER_3))  &kp LS(LG(NUMBER_4))  &none                                       &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LS(LEFT_PARENTHESIS)  &kp LS(RIGHT_PARENTHESIS)  &kp MINUS                  &kp PLUS
+&trans         &kp GRAVE            &kp LA(RIGHT)    &kp RS(LG(NUMBER_3))  &kp LS(LG(NUMBER_4))  &trans                                      &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LS(LEFT_PARENTHESIS)  &kp LS(RIGHT_PARENTHESIS)  &kp MINUS                  &kp PLUS
 &trans         &kp HOME             &kp END          &kp EQUAL             &kp UNDERSCORE        &kp MINUS                                   &kp LEFT          &kp DOWN           &kp UP                    &kp RIGHT                  &kp COLON                  &kp DOUBLE_QUOTES
-&trans         &none                &none            &none                 &none                 &kp LA(LEFT)     &none     &rgb_ug RGB_TOG  &kp LEFT_BRACE    &kp RIGHT_BRACE    &kp LS(LESS_THAN)         &kp LS(GREATER_THAN)       &kp LS(QUESTION)           &kp BACKSLASH
-                                    &trans           &trans                &trans                &trans           &trans    &kp LG(SPACE)    &trans            &none              &none                     &none
+&trans         &trans               &trans           &trans                &trans                &kp LA(LEFT)     &trans    &rgb_ug RGB_TOG  &kp LEFT_BRACE    &kp RIGHT_BRACE    &kp LS(LESS_THAN)         &kp LS(GREATER_THAN)       &kp LS(QUESTION)           &kp BACKSLASH
+                                    &trans           &trans                &trans                &trans           &trans    &kp LG(SPACE)    &trans            &trans             &trans                    &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>, <&knob>;
@@ -130,11 +130,11 @@
             //                |      |       |       |      |      |  |      |      |      |       |      |
 
             bindings = <
-&kp ESC             &kp F1     &kp F2         &kp F3     &kp F4     &kp F5                                 &kp F6         &kp F7    &kp F8    &kp F9     &kp F10  &kp F11
-&kp LG(TAB)         &kp LA(Q)  &kp LS(LG(W))  &kp LG(E)  &kp LG(R)  &kp LS(LG(T))                          &kp PG_UP      &kp HOME  &kp UP    &kp END    &none    &kp F12
-&trans              &kp LG(A)  &kp LG(S)      &kp LG(D)  &kp LG(F)  &kp LG(G)                              &kp PAGE_DOWN  &kp LEFT  &kp DOWN  &kp RIGHT  &none    &kp LC(PRINTSCREEN)
-&kp LG(LEFT_SHIFT)  &kp LG(Z)  &kp LG(X)      &kp LG(C)  &kp LG(V)  &kp LG(B)      &to 4            &none  &none          &none     &none     &none      &none    &none
-                               &trans         &trans     &trans     &trans         &kp BACKSPACE    &none  &none          &none     &none     &none
+&kp ESC             &kp F1     &kp F2         &kp F3     &kp F4     &kp F5                                  &kp F6         &kp F7    &kp F8    &kp F9     &kp F10  &kp F11
+&kp LG(TAB)         &kp LA(Q)  &kp LS(LG(W))  &kp LG(E)  &kp LG(R)  &kp LS(LG(T))                           &kp PG_UP      &kp HOME  &kp UP    &kp END    &trans   &kp F12
+&trans              &kp LG(A)  &kp LG(S)      &kp LG(D)  &kp LG(F)  &kp LG(G)                               &kp PAGE_DOWN  &kp LEFT  &kp DOWN  &kp RIGHT  &trans   &kp LC(PRINTSCREEN)
+&kp LG(LEFT_SHIFT)  &kp LG(Z)  &kp LG(X)      &kp LG(C)  &kp LG(V)  &kp LG(B)      &to 4            &trans  &trans         &trans    &trans    &trans     &trans   &trans
+                               &trans         &trans     &trans     &trans         &kp BACKSPACE    &trans  &trans         &trans    &trans    &trans
             >;
 
             sensor-bindings =
@@ -152,21 +152,21 @@
 
             label = "adjust";
             bindings = <
-&none  &none          &none                 &none                   &none                  &none                                            &trans  &none                  &none  &none  &none  &kp K_LOCK
-&none  &kp LC(LG(Q))  &kp LC(LA(LG(LEFT)))  &kp LC(LG(UP))          &kp LG(LA(LC(RIGHT)))  &none                                            &none   &none                  &none  &none  &none  &none
-&none  &none          &kp LC(LG(LEFT))      &kp LC(LG(DOWN_ARROW))  &kp LC(LG(RIGHT))      &none                                            &none   &remove_previous_word  &none  &none  &none  &none
-&none  &none          &none                 &none                   &none                  &remove_previous_word  &rgb_ug RGB_TOG    &none  &none   &none                  &none  &none  &none  &none
-                      &none                 &none                   &none                  &none                  &none              &none  &none   &none                  &none  &none
+&none  &none          &none                 &none                   &none                  &none                                            &none  &none                  &none  &none  &none  &kp K_LOCK
+&none  &kp LC(LG(Q))  &kp LC(LA(LG(LEFT)))  &kp LC(LG(UP))          &kp LG(LA(LC(RIGHT)))  &none                                            &none  &none                  &none  &none  &none  &none
+&none  &none          &kp LC(LG(LEFT))      &kp LC(LG(DOWN_ARROW))  &kp LC(LG(RIGHT))      &none                                            &none  &remove_previous_word  &none  &none  &none  &none
+&none  &none          &none                 &none                   &none                  &remove_previous_word  &rgb_ug RGB_TOG    &none  &none  &none                  &none  &none  &none  &none
+                      &none                 &none                   &none                  &none                  &none              &none  &none  &none                  &none  &none
             >;
         };
 
         layer_4 {
             bindings = <
-&bt BT_CLR         &bt BT_SEL 0     &bt BT_SEL 1     &bt BT_SEL 2     &bt BT_SEL 3     &bt BT_SEL 4                       &trans  &trans            &trans             &trans             &trans          &trans
-&rgb_ug RGB_TOG    &rgb_ug RGB_HUD  &rgb_ug RGB_HUI  &rgb_ug RGB_SAD  &rgb_ug RGB_SAI  &rgb_ug RGB_EFF                    &trans  &mkp LCLK         &mmv MOVE_Y(600)   &mkp RCLK          &trans          &trans
-&ext_power EP_TOG  &rgb_ug RGB_BRD  &rgb_ug RGB_BRI  &trans           &trans           &trans                             &trans  &mmv MOVE_X(600)  &mmv MOVE_Y(-600)  &mmv MOVE_X(-600)  &msc SCRL_UP    &trans
-&trans             &trans           &trans           &trans           &trans           &trans           &to 0     &trans  &trans  &trans            &trans             &trans             &msc SCRL_DOWN  &trans
-                                    &trans           &trans           &trans           &trans           &trans    &trans  &trans  &trans            &trans             &trans
+&bt BT_CLR         &bt BT_SEL 0     &bt BT_SEL 1     &bt BT_SEL 2     &bt BT_SEL 3     &bt BT_SEL 4                     &none  &none  &none  &none  &none           &none
+&rgb_ug RGB_TOG    &rgb_ug RGB_HUD  &rgb_ug RGB_HUI  &rgb_ug RGB_SAD  &rgb_ug RGB_SAI  &rgb_ug RGB_EFF                  &none  &none  &none  &none  &none           &none
+&ext_power EP_TOG  &rgb_ug RGB_BRD  &rgb_ug RGB_BRI  &none            &none            &none                            &none  &none  &none  &none  &msc SCRL_UP    &none
+&none              &none            &none            &none            &none            &none            &to 0    &none  &none  &none  &none  &none  &msc SCRL_DOWN  &none
+                                    &none            &none            &none            &none            &none    &none  &none  &none  &none  &none
             >;
         };
     };
