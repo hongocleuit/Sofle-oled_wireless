@@ -39,6 +39,13 @@
             flavor = "balanced";
             quick-tap-ms = <150>;
         };
+
+        knob: knob {
+            compatible = "zmk,behavior-sensor-rotate";
+            label = "KNOB";
+            #sensor-binding-cells = <0>;
+            bindings = <&rgb_ug RGB_EFR>, <&rgb_ug RGB_EFF>;
+        };
     };
 
     keymap {
