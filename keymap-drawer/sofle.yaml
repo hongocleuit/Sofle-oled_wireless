@@ -87,8 +87,8 @@ layers:
   - '-'
   - +
   - {t: ▽, type: trans}
-  - Gui+LEFT ARROW
-  - Gui+RIGHT
+  - HOME
+  - END
   - '='
   - _
   - '-'
