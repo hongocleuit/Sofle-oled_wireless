@@ -55,6 +55,22 @@
         };
     };
 
+    macros {
+        remove_previous_word: remove_previous_word {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
+                <&macro_press>,
+                <&kp LEFT_SHIFT>,
+                <&macro_tap>,
+                <&kp LEFT_ALT &kp LEFT>,
+                <&macro_release>,
+                <&kp LEFT_SHIFT>;
+
+            label = "REMOVE_PREVIOUS_WORD";
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
