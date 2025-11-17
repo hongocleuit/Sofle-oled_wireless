@@ -105,7 +105,7 @@ layers:
   - ''
   - Ctl+LEFT
   - ''
-  - ''
+  - RGB TOG
   - '{'
   - '}'
   - Sft+<
@@ -137,10 +137,10 @@ layers:
   - F11
   - Gui+TAB
   - Alt+Q
-  - Alt+Sft+W
-  - ''
-  - Alt+R
-  - Alt+Sft+T
+  - Sft+Gui+W
+  - Gui+E
+  - Gui+R
+  - Sft+Gui+T
   - HOME
   - Gui+LEFT ARROW
   - UP
@@ -149,8 +149,8 @@ layers:
   - F12
   - Gui+TAB
   - Gui+A
-  - ''
-  - ''
+  - Gui+S
+  - Gui+D
   - Gui+F
   - ''
   - END
@@ -164,7 +164,7 @@ layers:
   - Gui+X
   - Gui+C
   - Gui+V
-  - ''
+  - Gui+B
   - {t: '4', h: toggle}
   - ''
   - ''
