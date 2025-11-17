@@ -92,9 +92,9 @@
 
             bindings = <
 &kp RS(TILDE)  &kp LS(EXCLAMATION)  &kp LS(AT_SIGN)  &kp LS(POUND)         &kp LS(DOLLAR)        &kp LS(PERCENT)                             &kp RS(CARET)     &kp LS(AMPERSAND)  &kp LS(ASTERISK)          &kp LS(LEFT_PARENTHESIS)   &kp LS(RIGHT_PARENTHESIS)  &kp PIPE
-&trans         &kp GRAVE            &kp LC(RIGHT)    &kp RS(LG(NUMBER_3))  &kp LS(LG(NUMBER_4))  &none                                       &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LS(LEFT_PARENTHESIS)  &kp LS(RIGHT_PARENTHESIS)  &kp MINUS                  &kp PLUS
+&trans         &kp GRAVE            &kp LA(RIGHT)    &kp RS(LG(NUMBER_3))  &kp LS(LG(NUMBER_4))  &none                                       &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LS(LEFT_PARENTHESIS)  &kp LS(RIGHT_PARENTHESIS)  &kp MINUS                  &kp PLUS
 &trans         &kp HOME             &kp END          &kp EQUAL             &kp UNDERSCORE        &kp MINUS                                   &kp LEFT          &kp DOWN           &kp UP                    &kp RIGHT                  &kp COLON                  &kp DOUBLE_QUOTES
-&trans         &none                &none            &none                 &none                 &kp LC(LEFT)     &none     &rgb_ug RGB_TOG  &kp LEFT_BRACE    &kp RIGHT_BRACE    &kp LS(LESS_THAN)         &kp LS(GREATER_THAN)       &kp LS(QUESTION)           &kp BACKSLASH
+&trans         &none                &none            &none                 &none                 &kp LA(LEFT)     &none     &rgb_ug RGB_TOG  &kp LEFT_BRACE    &kp RIGHT_BRACE    &kp LS(LESS_THAN)         &kp LS(GREATER_THAN)       &kp LS(QUESTION)           &kp BACKSLASH
                                     &trans           &trans                &trans                &trans           &trans    &kp LG(SPACE)    &trans            &none              &none                     &none
             >;
 
@@ -144,11 +144,11 @@
 
         layer_4 {
             bindings = <
-&bt BT_CLR         &bt BT_SEL 0     &bt BT_SEL 1     &bt BT_SEL 2     &bt BT_SEL 3     &bt BT_SEL 4                       &trans  &trans          &trans          &trans           &trans          &trans
-&rgb_ug RGB_TOG    &rgb_ug RGB_HUD  &rgb_ug RGB_HUI  &rgb_ug RGB_SAD  &rgb_ug RGB_SAI  &rgb_ug RGB_EFF                    &trans  &mkp LCLK       &mmv MOVE_UP    &mkp RCLK        &trans          &trans
-&ext_power EP_TOG  &rgb_ug RGB_BRD  &rgb_ug RGB_BRI  &trans           &trans           &trans                             &trans  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &msc SCRL_UP    &trans
-&trans             &trans           &trans           &trans           &trans           &trans           &to 0     &trans  &trans  &trans          &trans          &trans           &msc SCRL_DOWN  &trans
-                                    &trans           &trans           &trans           &trans           &trans    &trans  &trans  &trans          &trans          &trans
+&bt BT_CLR         &bt BT_SEL 0     &bt BT_SEL 1     &bt BT_SEL 2     &bt BT_SEL 3     &bt BT_SEL 4                       &trans  &trans            &trans             &trans             &trans          &trans
+&rgb_ug RGB_TOG    &rgb_ug RGB_HUD  &rgb_ug RGB_HUI  &rgb_ug RGB_SAD  &rgb_ug RGB_SAI  &rgb_ug RGB_EFF                    &trans  &mkp LCLK         &mmv MOVE_Y(600)   &mkp RCLK          &trans          &trans
+&ext_power EP_TOG  &rgb_ug RGB_BRD  &rgb_ug RGB_BRI  &trans           &trans           &trans                             &trans  &mmv MOVE_X(600)  &mmv MOVE_Y(-600)  &mmv MOVE_X(-600)  &msc SCRL_UP    &trans
+&trans             &trans           &trans           &trans           &trans           &trans           &to 0     &trans  &trans  &trans            &trans             &trans             &msc SCRL_DOWN  &trans
+                                    &trans           &trans           &trans           &trans           &trans    &trans  &trans  &trans            &trans             &trans
             >;
         };
     };
