@@ -131,7 +131,7 @@
 
             bindings = <
 &kp ESC             &kp F1     &kp F2         &kp F3     &kp F4     &kp F5                                  &kp F6         &kp F7    &kp F8    &kp F9     &kp F10  &kp F11
-&kp LG(TAB)         &kp LA(Q)  &kp LS(LG(W))  &kp LG(E)  &kp LG(R)  &kp LS(LG(T))                           &kp PG_UP      &kp HOME  &kp UP    &kp END    &trans   &kp F12
+&kp LG(TAB)         &kp LG(Q)  &kp LS(LG(W))  &kp LG(E)  &kp LG(R)  &kp LS(LG(T))                           &kp PG_UP      &kp HOME  &kp UP    &kp END    &trans   &kp F12
 &trans              &kp LG(A)  &kp LG(S)      &kp LG(D)  &kp LG(F)  &kp LG(G)                               &kp PAGE_DOWN  &kp LEFT  &kp DOWN  &kp RIGHT  &trans   &kp LC(PRINTSCREEN)
 &kp LG(LEFT_SHIFT)  &kp LG(Z)  &kp LG(X)      &kp LG(C)  &kp LG(V)  &kp LG(B)      &to 4            &trans  &trans         &trans    &trans    &trans     &trans   &trans
                                &trans         &trans     &trans     &trans         &kp BACKSPACE    &trans  &trans         &trans    &trans    &trans
