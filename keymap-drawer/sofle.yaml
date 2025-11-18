@@ -90,8 +90,8 @@ layers:
   - HOME
   - END
   - '='
-  - _
   - '-'
+  - _
   - LEFT
   - DOWN
   - UP
@@ -99,10 +99,10 @@ layers:
   - ':'
   - '"'
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - Gui+Z
+  - Gui+X
+  - Gui+C
+  - Gui+V
   - Alt+LEFT
   - {t: ▽, type: trans}
   - RGB TOG
@@ -197,10 +197,10 @@ layers:
   - ''
   - LOCK
   - ''
-  - Ctl+Gui+Q
-  - Ctl+Alt+Gui+LEFT
+  - Ctl+Gui+Alt+LEFT
   - Ctl+Gui+UP
-  - Gui+Alt+Ctl+RIGHT
+  - Ctl+Gui+Alt+RIGHT
+  - {t: ▽, type: trans}
   - ''
   - ''
   - ''
@@ -209,10 +209,10 @@ layers:
   - ''
   - ''
   - ''
-  - ''
-  - Ctl+Gui+LEFT
-  - Ctl+Gui+DOWN ARROW
+  - Gui+Ctl+LEFT
+  - Ctl+Gui+DOWN
   - Ctl+Gui+RIGHT
+  - {t: ▽, type: trans}
   - ''
   - ''
   - '&remove_previous_word'
@@ -238,8 +238,8 @@ layers:
   - ''
   - ''
   - {type: held}
-  - ''
-  - ''
+  - Ctl+Gui+Q
+  - {t: ▽, type: trans}
   - {type: held}
   - ''
   - ''
@@ -279,7 +279,7 @@ layers:
   - ''
   - ''
   - ''
-  - '&msc SCRL_UP'
+  - ''
   - ''
   - ''
   - ''
