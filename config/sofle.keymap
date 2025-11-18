@@ -111,8 +111,8 @@
             bindings = <
 &kp RS(TILDE)  &kp LS(EXCLAMATION)  &kp LS(AT_SIGN)  &kp LS(POUND)         &kp LS(DOLLAR)        &kp LS(PERCENT)                             &kp RS(CARET)     &kp LS(AMPERSAND)  &kp LS(ASTERISK)          &kp LS(LEFT_PARENTHESIS)   &kp LS(RIGHT_PARENTHESIS)  &kp PIPE
 &trans         &kp GRAVE            &kp LA(RIGHT)    &kp RS(LG(NUMBER_3))  &kp LS(LG(NUMBER_4))  &trans                                      &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LS(LEFT_PARENTHESIS)  &kp LS(RIGHT_PARENTHESIS)  &kp MINUS                  &kp PLUS
-&trans         &kp HOME             &kp END          &kp EQUAL             &kp UNDERSCORE        &kp MINUS                                   &kp LEFT          &kp DOWN           &kp UP                    &kp RIGHT                  &kp COLON                  &kp DOUBLE_QUOTES
-&trans         &trans               &trans           &trans                &trans                &kp LA(LEFT)     &trans    &rgb_ug RGB_TOG  &kp LEFT_BRACE    &kp RIGHT_BRACE    &kp LS(LESS_THAN)         &kp LS(GREATER_THAN)       &kp LS(QUESTION)           &kp BACKSLASH
+&trans         &kp HOME             &kp END          &kp EQUAL             &kp MINUS             &kp UNDER                                   &kp LEFT          &kp DOWN           &kp UP                    &kp RIGHT                  &kp COLON                  &kp DOUBLE_QUOTES
+&trans         &kp LG(Z)            &kp LG(X)        &kp LG(C)             &kp LG(V)             &kp LA(LEFT)     &trans    &rgb_ug RGB_TOG  &kp LEFT_BRACE    &kp RIGHT_BRACE    &kp LS(LESS_THAN)         &kp LS(GREATER_THAN)       &kp LS(QUESTION)           &kp BACKSLASH
                                     &trans           &trans                &trans                &trans           &trans    &kp LG(SPACE)    &trans            &trans             &trans                    &trans
             >;
 
@@ -152,11 +152,11 @@
 
             label = "adjust";
             bindings = <
-&none  &none          &none                 &none                   &none                  &none                                            &none  &none                  &none  &none  &none  &kp K_LOCK
-&none  &kp LC(LG(Q))  &kp LC(LA(LG(LEFT)))  &kp LC(LG(UP))          &kp LG(LA(LC(RIGHT)))  &none                                            &none  &none                  &none  &none  &none  &none
-&none  &none          &kp LC(LG(LEFT))      &kp LC(LG(DOWN_ARROW))  &kp LC(LG(RIGHT))      &none                                            &none  &remove_previous_word  &none  &none  &none  &none
-&none  &none          &none                 &none                   &none                  &remove_previous_word  &rgb_ug RGB_TOG    &none  &none  &none                  &none  &none  &none  &none
-                      &none                 &none                   &none                  &none                  &none              &none  &none  &none                  &none  &none
+&none  &none                 &none             &none                  &none   &none                                             &none  &none                  &none  &none  &none  &kp K_LOCK
+&none  &kp LC(LG(LA(LEFT)))  &kp LC(LG(UP))    &kp LC(LG(LA(RIGHT)))  &trans  &none                                             &none  &none                  &none  &none  &none  &none
+&none  &kp LG(LC(LEFT))      &kp LC(LG(DOWN))  &kp LC(LG(RIGHT))      &trans  &none                                             &none  &remove_previous_word  &none  &none  &none  &none
+&none  &none                 &none             &none                  &none   &remove_previous_word  &rgb_ug RGB_TOG    &none   &none  &none                  &none  &none  &none  &none
+                             &none             &none                  &none   &none                  &kp LC(LG(Q))      &trans  &none  &none                  &none  &none
             >;
         };
 
@@ -164,7 +164,7 @@
             bindings = <
 &bt BT_CLR         &bt BT_SEL 0     &bt BT_SEL 1     &bt BT_SEL 2     &bt BT_SEL 3     &bt BT_SEL 4                     &none  &none  &none  &none  &none           &none
 &rgb_ug RGB_TOG    &rgb_ug RGB_HUD  &rgb_ug RGB_HUI  &rgb_ug RGB_SAD  &rgb_ug RGB_SAI  &rgb_ug RGB_EFF                  &none  &none  &none  &none  &none           &none
-&ext_power EP_TOG  &rgb_ug RGB_BRD  &rgb_ug RGB_BRI  &none            &none            &none                            &none  &none  &none  &none  &msc SCRL_UP    &none
+&ext_power EP_TOG  &rgb_ug RGB_BRD  &rgb_ug RGB_BRI  &none            &none            &none                            &none  &none  &none  &none  &none           &none
 &none              &none            &none            &none            &none            &none            &to 0    &none  &none  &none  &none  &none  &msc SCRL_DOWN  &none
                                     &none            &none            &none            &none            &none    &none  &none  &none  &none  &none
             >;
