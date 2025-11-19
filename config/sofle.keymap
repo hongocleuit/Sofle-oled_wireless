@@ -87,11 +87,11 @@
             //               | GUI | ALT  | CTRL | LOWER|  ENTER |  | SPACE | RAISE| CTRL  | ALT   | GUI  |
 
             bindings = <
-&kp ESCAPE          &kp N1  &kp N2            &kp N3            &kp N4            &kp N5                                 &kp N6  &kp N7             &kp N8     &kp N9     &kp N0    &kp BACKSPACE
-&kp TAB             &kp Q   &kp W             &kp E             &kp R             &kp T                                  &kp Y   &kp U              &kp I      &kp O      &kp P     &kp PIPE
-&ht LEFT_SHIFT TAB  &kp A   &ht LEFT_SHIFT S  &ht LEFT_SHIFT D  &ht LEFT_SHIFT F  &kp G                                  &kp H   &kp J              &kp K      &kp L      &kp SEMI  &kp SQT
-&kp LEFT_SHIFT      &kp Z   &kp X             &kp C             &kp V             &kp B   &kp C_MUTE    &rgb_ug RGB_TOG  &kp N   &kp M              &kp COMMA  &kp DOT    &kp FSLH  &kp RIGHT_SHIFT
-                            &kp RCTRL         &kp LEFT_ALT      &kp LEFT_GUI      &mo 1   &kp SPACE     &sl 5            &mo 2   &kp LC(LA(SPACE))  &sl 5      &kp RCTRL
+&kp ESCAPE          &kp N1            &kp N2            &kp N3            &kp N4            &kp N5                                 &kp N6  &kp N7             &kp N8     &kp N9     &kp N0    &kp BACKSPACE
+&kp TAB             &kp Q             &kp W             &kp E             &kp R             &kp T                                  &kp Y   &kp U              &kp I      &kp O      &kp P     &kp PIPE
+&ht LEFT_SHIFT TAB  &ht LEFT_SHIFT A  &ht LEFT_SHIFT S  &ht LEFT_SHIFT D  &ht LEFT_SHIFT F  &kp G                                  &kp H   &kp J              &kp K      &kp L      &kp SEMI  &kp SQT
+&kp LEFT_SHIFT      &kp Z             &kp X             &kp C             &kp V             &kp B   &kp C_MUTE    &rgb_ug RGB_TOG  &kp N   &kp M              &kp COMMA  &kp DOT    &kp FSLH  &kp RIGHT_SHIFT
+                                      &kp RCTRL         &kp LEFT_ALT      &kp LEFT_GUI      &mo 1   &kp SPACE     &sl 5            &mo 2   &kp LC(LA(SPACE))  &sl 5      &kp RCTRL
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP>, <&light>;
@@ -152,11 +152,11 @@
 
             label = "adjust";
             bindings = <
-&none  &none                 &none             &none                  &none              &none                                             &none  &none                  &none  &none  &none  &kp K_LOCK
-&none  &kp LC(LG(LA(LEFT)))  &kp LC(LG(UP))    &kp LC(LG(LA(RIGHT)))  &trans             &none                                             &none  &none                  &none  &none  &none  &none
-&none  &kp LG(LC(LEFT))      &kp LC(LG(DOWN))  &kp LC(LG(RIGHT))      &trans             &none                                             &none  &remove_previous_word  &none  &none  &none  &none
-&none  &none                 &none             &none                  &kp LG(LS(LA(V)))  &remove_previous_word  &rgb_ug RGB_TOG    &none   &none  &none                  &none  &none  &none  &none
-                             &none             &none                  &none              &none                  &kp LC(LG(Q))      &trans  &none  &none                  &none  &none
+&none  &none        &none                 &none             &none                  &none                                             &none  &none                  &none  &none  &none  &kp K_LOCK
+&none  &trans       &kp LC(LG(LA(LEFT)))  &kp LC(LG(UP))    &kp LC(LG(LA(RIGHT)))  &none                                             &none  &none                  &none  &none  &none  &none
+&none  &kp AT_SIGN  &kp LC(LG(LEFT))      &kp LC(LG(DOWN))  &kp LG(LC(RIGHT))      &none                                             &none  &remove_previous_word  &none  &none  &none  &none
+&none  &none        &none                 &none             &kp LG(LS(LA(V)))      &remove_previous_word  &rgb_ug RGB_TOG    &none   &none  &none                  &none  &none  &none  &none
+                    &none                 &none             &none                  &none                  &kp LC(LG(Q))      &trans  &none  &none                  &none  &none
             >;
         };
 
