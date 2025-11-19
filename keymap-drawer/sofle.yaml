@@ -24,10 +24,10 @@ layers:
   - I
   - O
   - P
-  - '['
+  - '|'
   - {t: TAB, h: LEFT SHIFT}
   - A
-  - S
+  - {t: S, h: LEFT SHIFT}
   - {t: D, h: LEFT SHIFT}
   - {t: F, h: LEFT SHIFT}
   - G
@@ -59,7 +59,7 @@ layers:
   - {t: '5', h: sticky}
   - raise
   - Ctl+Alt+SPACE
-  - DEL
+  - {t: '5', h: sticky}
   - RCTRL
   lower:
   - Sft+~
@@ -74,11 +74,11 @@ layers:
   - Sft+(
   - Sft+)
   - '|'
-  - {t: ▽, type: trans}
+  - Gui+TAB
   - '`'
   - Alt+RIGHT
-  - Sft+Gui+3
   - Sft+Gui+4
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '['
   - ']'
@@ -364,5 +364,5 @@ layers:
   - {t: ENTER, type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - DELETE
   - {t: ▽, type: trans}
