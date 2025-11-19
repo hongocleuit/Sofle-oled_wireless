@@ -152,11 +152,11 @@
 
             label = "adjust";
             bindings = <
-&none  &none                 &none             &none                  &none   &none                                             &none  &none                  &none  &none  &none  &kp K_LOCK
-&none  &kp LC(LG(LA(LEFT)))  &kp LC(LG(UP))    &kp LC(LG(LA(RIGHT)))  &trans  &none                                             &none  &none                  &none  &none  &none  &none
-&none  &kp LG(LC(LEFT))      &kp LC(LG(DOWN))  &kp LC(LG(RIGHT))      &trans  &none                                             &none  &remove_previous_word  &none  &none  &none  &none
-&none  &none                 &none             &none                  &none   &remove_previous_word  &rgb_ug RGB_TOG    &none   &none  &none                  &none  &none  &none  &none
-                             &none             &none                  &none   &none                  &kp LC(LG(Q))      &trans  &none  &none                  &none  &none
+&none  &none                 &none             &none                  &none              &none                                             &none  &none                  &none  &none  &none  &kp K_LOCK
+&none  &kp LC(LG(LA(LEFT)))  &kp LC(LG(UP))    &kp LC(LG(LA(RIGHT)))  &trans             &none                                             &none  &none                  &none  &none  &none  &none
+&none  &kp LG(LC(LEFT))      &kp LC(LG(DOWN))  &kp LC(LG(RIGHT))      &trans             &none                                             &none  &remove_previous_word  &none  &none  &none  &none
+&none  &none                 &none             &none                  &kp LG(LS(LA(V)))  &remove_previous_word  &rgb_ug RGB_TOG    &none   &none  &none                  &none  &none  &none  &none
+                             &none             &none                  &none              &none                  &kp LC(LG(Q))      &trans  &none  &none                  &none  &none
             >;
         };
 
