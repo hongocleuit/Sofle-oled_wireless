@@ -87,8 +87,8 @@ layers:
   - '-'
   - +
   - {t: ▽, type: trans}
-  - HOME
-  - END
+  - '@'
+  - Gui+S
   - '='
   - '-'
   - _
@@ -116,8 +116,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
-  - {t: ▽, type: trans}
   - Gui+SPACE
+  - BACKSPACE
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -141,7 +141,7 @@ layers:
   - Gui+E
   - Gui+R
   - Sft+Gui+T
-  - PG UP
+  - Gui+UP ARROW
   - HOME
   - UP
   - END
@@ -153,7 +153,7 @@ layers:
   - Gui+D
   - Gui+F
   - Gui+G
-  - PAGE DOWN
+  - Gui+DOWN ARROW
   - LEFT
   - DOWN
   - RIGHT
@@ -177,7 +177,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - BACKSPACE
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
