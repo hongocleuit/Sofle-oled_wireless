@@ -26,16 +26,16 @@ layers:
   - P
   - '|'
   - {t: TAB, h: LEFT SHIFT}
-  - {t: A, h: LEFT SHIFT}
-  - {t: S, h: LEFT SHIFT}
+  - {t: A, h: LCTRL}
+  - {t: S, h: LEFT ALT}
   - {t: D, h: LEFT SHIFT}
-  - {t: F, h: LEFT SHIFT}
+  - {t: F, h: LEFT COMMAND}
   - G
   - H
-  - J
-  - K
-  - L
-  - ;
+  - {t: J, h: LEFT WIN}
+  - {t: K, h: LEFT SHIFT}
+  - {t: L, h: LEFT ALT}
+  - {t: ;, h: LCTRL}
   - ''''
   - LEFT SHIFT
   - Z
@@ -78,8 +78,8 @@ layers:
   - '`'
   - Alt+RIGHT
   - Sft+Gui+4
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - Gui+R
+  - Gui+T
   - '['
   - ']'
   - Sft+(
