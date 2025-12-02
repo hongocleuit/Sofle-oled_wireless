@@ -26,22 +26,22 @@ layers:
   - P
   - '|'
   - {t: TAB, h: LEFT SHIFT}
-  - {t: A, h: LCTRL}
-  - {t: S, h: LEFT ALT}
-  - {t: D, h: LEFT SHIFT}
+  - {t: A, h: LEFT SHIFT}
+  - {t: S, h: LCTRL}
+  - {t: D, h: LEFT ALT}
   - {t: F, h: LEFT COMMAND}
   - G
   - H
   - {t: J, h: LEFT WIN}
-  - {t: K, h: LEFT SHIFT}
-  - {t: L, h: LEFT ALT}
-  - {t: ;, h: LCTRL}
+  - {t: K, h: LEFT ALT}
+  - {t: L, h: LCTRL}
+  - {t: ;, h: LEFT SHIFT}
   - ''''
   - LEFT SHIFT
   - Z
-  - X
-  - C
-  - V
+  - {t: X, h: Gui+X}
+  - {t: C, h: Gui+C}
+  - {t: V, h: Gui+V}
   - B
   - MUTE
   - RGB TOG
@@ -54,7 +54,7 @@ layers:
   - RCTRL
   - LEFT ALT
   - LEFT GUI
-  - lower
+  - {t: BACKSPACE, h: lower}
   - SPACE
   - {t: '5', h: sticky}
   - raise
@@ -117,7 +117,7 @@ layers:
   - {t: ▽, type: trans}
   - {type: held}
   - Gui+SPACE
-  - BACKSPACE
+  - Gui+ENTER
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -197,10 +197,10 @@ layers:
   - ''
   - ''
   - ''
-  - Alt+Gui+ESCAPE
-  - Ctl+Gui+Alt+LEFT
-  - Ctl+Gui+UP
+  - Alt+Gui+Ctl+LEFT
+  - Ctl+Gui+UP ARROW
   - Ctl+Gui+Alt+RIGHT
+  - {t: ▽, type: trans}
   - ''
   - ''
   - ''
@@ -209,10 +209,10 @@ layers:
   - ''
   - ''
   - ''
-  - '@'
   - Ctl+Gui+LEFT
-  - Ctl+Gui+DOWN
-  - Gui+Ctl+RIGHT
+  - Ctl+Gui+DOWN ARROW
+  - Ctl+Gui+RIGHT
+  - {t: ▽, type: trans}
   - ''
   - ''
   - '&remove_previous_word'
