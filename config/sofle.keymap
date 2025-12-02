@@ -35,7 +35,7 @@
             bindings = <&kp>, <&kp>;
 
             #binding-cells = <2>;
-            tapping-term-ms = <350>;
+            tapping-term-ms = <250>;
             flavor = "balanced";
             quick-tap-ms = <150>;
         };
@@ -52,6 +52,17 @@
             label = "LIGHT";
             #sensor-binding-cells = <0>;
             bindings = <&rgb_ug RGB_BRD>, <&rgb_ug RGB_BRI>;
+        };
+
+        ht_layers: ht_layers {
+            compatible = "zmk,behavior-hold-tap";
+            label = "HT_LAYERS";
+            bindings = <&mo>, <&kp>;
+
+            #binding-cells = <2>;
+            tapping-term-ms = <350>;
+            flavor = "balanced";
+            quick-tap-ms = <150>;
         };
     };
 
@@ -76,7 +87,7 @@
     keymap {
         compatible = "zmk,keymap";
 
-        default_layer {
+        Mac01 {
             label = "default";
 
             // ------------------------------------------------------------------------------------------------------------
@@ -87,17 +98,17 @@
             //               | GUI | ALT  | CTRL | LOWER|  ENTER |  | SPACE | RAISE| CTRL  | ALT   | GUI  |
 
             bindings = <
-&kp ESCAPE          &kp N1       &kp N2          &kp N3            &kp N4              &kp N5                                 &kp N6  &kp N7             &kp N8            &kp N9          &kp N0               &kp BACKSPACE
-&kp TAB             &kp Q        &kp W           &kp E             &kp R               &kp T                                  &kp Y   &kp U              &kp I             &kp O           &kp P                &kp PIPE
-&ht LEFT_SHIFT TAB  &ht LCTRL A  &ht LEFT_ALT S  &ht LEFT_SHIFT D  &ht LEFT_COMMAND F  &kp G                                  &kp H   &ht LEFT_WIN J     &ht LEFT_SHIFT K  &ht LEFT_ALT L  &ht LCTRL SEMICOLON  &kp SQT
-&kp LEFT_SHIFT      &kp Z        &kp X           &kp C             &kp V               &kp B   &kp C_MUTE    &rgb_ug RGB_TOG  &kp N   &kp M              &kp COMMA         &kp DOT         &kp FSLH             &kp RIGHT_SHIFT
-                                 &kp RCTRL       &kp LEFT_ALT      &kp LEFT_GUI        &mo 1   &kp SPACE     &sl 5            &mo 2   &kp LC(LA(SPACE))  &sl 5             &kp RCTRL
+&kp ESCAPE          &kp N1            &kp N2       &kp N3          &kp N4              &kp N5                                                 &kp N6  &kp N7             &kp N8          &kp N9       &kp N0                    &kp BACKSPACE
+&kp TAB             &kp Q             &kp W        &kp E           &kp R               &kp T                                                  &kp Y   &kp U              &kp I           &kp O        &kp P                     &kp PIPE
+&ht LEFT_SHIFT TAB  &ht LEFT_SHIFT A  &ht LCTRL S  &ht LEFT_ALT D  &ht LEFT_COMMAND F  &kp G                                                  &kp H   &ht LEFT_WIN J     &ht LEFT_ALT K  &ht LCTRL L  &ht LEFT_SHIFT SEMICOLON  &kp SQT
+&kp LEFT_SHIFT      &kp Z             &ht LG(X) X  &ht LG(C) C     &ht LG(V) V         &kp B                   &kp C_MUTE    &rgb_ug RGB_TOG  &kp N   &kp M              &kp COMMA       &kp DOT      &kp FSLH                  &kp RIGHT_SHIFT
+                                      &kp RCTRL    &kp LEFT_ALT    &kp LEFT_GUI        &ht_layers 1 BACKSPACE  &kp SPACE     &sl 5            &mo 2   &kp LC(LA(SPACE))  &sl 5           &kp RCTRL
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP>, <&light>;
         };
 
-        lower_layer {
+        mac_lower_layer {
             label = "lower";
 
             // TODO: Some binds are waiting for shifted keycode support.
@@ -113,7 +124,7 @@
 &kp LG(TAB)    &kp GRAVE            &kp LA(RIGHT)    &kp RS(LG(NUMBER_4))  &kp LG(R)       &kp LG(T)                                          &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LS(LEFT_PARENTHESIS)  &kp LS(RIGHT_PARENTHESIS)  &kp MINUS                  &kp PLUS
 &trans         &kp LG(A)            &kp LG(S)        &kp EQUAL             &kp MINUS       &kp UNDER                                          &kp LEFT          &kp DOWN           &kp UP                    &kp RIGHT                  &kp COLON                  &kp DOUBLE_QUOTES
 &trans         &kp LG(Z)            &kp LG(X)        &kp LG(C)             &kp LG(V)       &kp LA(LEFT)     &trans           &rgb_ug RGB_TOG  &kp LEFT_BRACE    &kp RIGHT_BRACE    &kp LS(LESS_THAN)         &kp LS(GREATER_THAN)       &kp LS(QUESTION)           &kp BACKSLASH
-                                    &trans           &trans                &trans          &trans           &kp LG(SPACE)    &kp BACKSPACE    &trans            &trans             &trans                    &trans
+                                    &trans           &trans                &trans          &trans           &kp LG(SPACE)    &kp LG(ENTER)    &trans            &trans             &trans                    &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>, <&knob>;
@@ -152,11 +163,11 @@
 
             label = "adjust";
             bindings = <
-&none  &none               &none                 &none             &none                  &none                                             &none  &none                  &none  &none  &none  &none
-&none  &kp LA(LG(ESCAPE))  &kp LC(LG(LA(LEFT)))  &kp LC(LG(UP))    &kp LC(LG(LA(RIGHT)))  &none                                             &none  &none                  &none  &none  &none  &none
-&none  &kp AT_SIGN         &kp LC(LG(LEFT))      &kp LC(LG(DOWN))  &kp LG(LC(RIGHT))      &none                                             &none  &remove_previous_word  &none  &none  &none  &none
-&none  &none               &none                 &none             &kp LG(LS(LA(V)))      &remove_previous_word  &rgb_ug RGB_TOG    &none   &none  &none                  &none  &none  &none  &none
-                           &none                 &none             &none                  &none                  &kp LC(LG(Q))      &trans  &none  &none                  &none  &none
+&none  &none                 &none                   &none                  &none              &none                                             &none  &none                  &none  &none  &none  &none
+&none  &kp LA(LG(LC(LEFT)))  &kp LC(LG(UP_ARROW))    &kp LC(LG(LA(RIGHT)))  &trans             &none                                             &none  &none                  &none  &none  &none  &none
+&none  &kp LC(LG(LEFT))      &kp LC(LG(DOWN_ARROW))  &kp LC(LG(RIGHT))      &trans             &none                                             &none  &remove_previous_word  &none  &none  &none  &none
+&none  &none                 &none                   &none                  &kp LG(LS(LA(V)))  &remove_previous_word  &rgb_ug RGB_TOG    &none   &none  &none                  &none  &none  &none  &none
+                             &none                   &none                  &none              &none                  &kp LC(LG(Q))      &trans  &none  &none                  &none  &none
             >;
         };
 
