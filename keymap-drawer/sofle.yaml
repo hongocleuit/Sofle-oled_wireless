@@ -54,10 +54,10 @@ layers:
   - RCTRL
   - LEFT ALT
   - LEFT GUI
-  - {t: BACKSPACE, h: lower}
+  - lower
   - SPACE
   - {t: '5', h: sticky}
-  - raise
+  - {t: BACKSPACE, h: raise}
   - Ctl+Alt+SPACE
   - {t: '5', h: sticky}
   - RCTRL
