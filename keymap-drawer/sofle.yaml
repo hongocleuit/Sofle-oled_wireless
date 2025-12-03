@@ -15,37 +15,37 @@ layers:
   - BACKSPACE
   - TAB
   - Q
-  - W
+  - {t: W, h: Gui+W}
   - E
-  - R
-  - T
+  - {t: R, h: Gui+R}
+  - {t: T, h: Gui+T}
   - Y
   - U
   - I
   - O
   - P
-  - '|'
+  - \
   - {t: TAB, h: LEFT SHIFT}
-  - {t: A, h: LEFT SHIFT}
-  - {t: S, h: LCTRL}
-  - {t: D, h: LEFT ALT}
-  - {t: F, h: LEFT COMMAND}
+  - {t: A, h: LCTRL}
+  - {t: S, h: LEFT ALT}
+  - {t: D, h: LEFT GUI}
+  - {t: F, h: LEFT SHIFT}
   - G
   - H
-  - {t: J, h: LEFT WIN}
-  - {t: K, h: LEFT ALT}
-  - {t: L, h: LCTRL}
-  - {t: ;, h: LEFT SHIFT}
+  - {t: J, h: LEFT SHIFT}
+  - {t: K, h: LEFT GUI}
+  - {t: L, h: LEFT ALT}
+  - {t: ;, h: RCTRL}
   - ''''
   - LEFT SHIFT
-  - Z
+  - {t: Z, h: Gui+Z}
   - {t: X, h: Gui+X}
   - {t: C, h: Gui+C}
   - {t: V, h: Gui+V}
   - B
   - MUTE
   - RGB TOG
-  - N
+  - {t: N, h: Gui+N}
   - M
   - ','
   - .
@@ -54,10 +54,10 @@ layers:
   - RCTRL
   - LEFT ALT
   - LEFT GUI
-  - lower
+  - {t: BACKSPACE, h: lower}
   - SPACE
   - {t: '5', h: sticky}
-  - {t: BACKSPACE, h: raise}
+  - {t: DEL, h: raise}
   - Ctl+Alt+SPACE
   - {t: '5', h: sticky}
   - RCTRL
@@ -142,9 +142,9 @@ layers:
   - Gui+R
   - Sft+Gui+T
   - Gui+UP ARROW
-  - HOME
+  - Gui+LEFT ARROW
   - UP
-  - END
+  - Gui+RIGHT
   - {t: ▽, type: trans}
   - F12
   - {t: ▽, type: trans}
@@ -360,8 +360,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ENTER, type: held}
+  - ENTER
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - DELETE
