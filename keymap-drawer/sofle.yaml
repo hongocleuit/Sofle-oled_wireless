@@ -366,3 +366,12 @@ layers:
   - {t: ▽, type: trans}
   - DELETE
   - {t: ▽, type: trans}
+combos:
+- p: [38, 37]
+  k: Gui+Z
+- p: [38, 39]
+  k: Gui+C
+- p: [39, 40]
+  k: Gui+V
+- p: [31, 32]
+  k: '-'
