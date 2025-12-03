@@ -130,6 +130,30 @@
         };
     };
 
+    combos {
+        compatible = "zmk,combos";
+
+        Undo {
+            bindings = <&kp LG(Z)>;
+            key-positions = <38 37>;
+        };
+
+        Copy {
+            bindings = <&kp LG(C)>;
+            key-positions = <38 39>;
+        };
+
+        Paste {
+            bindings = <&kp LG(V)>;
+            key-positions = <39 40>;
+        };
+
+        JK- {
+            bindings = <&kp MINUS>;
+            key-positions = <31 32>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
