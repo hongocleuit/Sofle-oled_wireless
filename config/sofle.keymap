@@ -254,8 +254,8 @@
 &trans  &trans  &trans  &trans  &trans  &trans                       &trans  &trans  &trans      &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans                       &trans  &trans  &trans      &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans                       &trans  &trans  &trans      &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans       &trans  &trans  &trans  &trans      &trans  &trans  &trans
-                &trans  &trans  &trans  &trans  &kp ENTER    &trans  &trans  &trans  &kp DELETE  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans     &trans  &trans  &trans      &trans  &trans  &trans
+                &trans  &trans  &trans  &trans  &trans    &kp ENTER  &trans  &trans  &kp DELETE  &trans
             >;
         };
     };
