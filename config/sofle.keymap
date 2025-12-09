@@ -63,6 +63,7 @@
             hold-while-undecided;
             hold-trigger-key-positions = <0 1 2 3 4 5 14 15 16 17 26 27 28 29 38 39 40 41 12 13 14 24 25 26 36 37 38 50 51 52 53 54 42>;
             hold-trigger-on-release;
+            quick-tap-ms = <250>;
         };
 
         HMShiftL: HMShiftL {
@@ -75,6 +76,7 @@
             hold-while-undecided;
             hold-trigger-on-release;
             hold-trigger-key-positions = <6 7 8 9 10 11 18 19 20 21 22 23 30 31 32 33 34 35 44 45 46 47 48 49 57 58 59 55 56 43>;
+            quick-tap-ms = <250>;
         };
 
         HMR: HMR {
@@ -83,10 +85,10 @@
             bindings = <&kp>, <&kp>;
 
             #binding-cells = <2>;
-            tapping-term-ms = <350>;
+            tapping-term-ms = <400>;
             hold-trigger-key-positions = <0 1 2 3 4 5 14 15 16 17 26 27 28 29 38 39 40 41 12 13 14 24 25 26 36 37 38 50 51 52 53 54 42>;
             flavor = "tap-preferred";
-            hold-while-undecided;
+            quick-tap-ms = <350>;
         };
 
         HML: HML {
@@ -95,10 +97,10 @@
             bindings = <&kp>, <&kp>;
 
             #binding-cells = <2>;
-            tapping-term-ms = <350>;
+            tapping-term-ms = <400>;
             hold-trigger-key-positions = <6 7 8 9 10 11 18 19 20 21 22 23 30 31 32 33 34 35 44 45 46 47 48 49 57 58 59 55 56 43>;
             flavor = "tap-preferred";
-            hold-while-undecided;
+            quick-tap-ms = <350>;
         };
 
         DTapGG: DTapGG {
@@ -275,6 +277,16 @@
 &trans          &kp A   &kp S      &kp D         &kp F         &kp G                               &kp H       &kp J   &kp K      &kp L     &kp SEMI  &kp SQT
 &kp LEFT_SHIFT  &kp Z   &kp X      &kp C         &kp V         &kp B          &to 4        &trans  &kp N       &kp M   &kp COMMA  &kp DOT   &kp FSLH  &trans
                         &kp LCTRL  &kp LEFT_WIN  &kp LEFT_ALT  &kp BACKSPACE  &kp SPACE    &sl 5   &kp DELETE  &trans  &kp LBKT   &kp RBKT
+            >;
+        };
+
+        layer_7 {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+                &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
             >;
         };
     };
