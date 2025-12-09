@@ -12,7 +12,7 @@ layers:
   - '8'
   - '9'
   - '0'
-  - BACKSPACE
+  - '&TTap_Delete'
   - TAB
   - {t: Q, h: Gui+Q}
   - {t: W, h: Gui+W}
@@ -38,10 +38,10 @@ layers:
   - {t: ;, h: RCTRL}
   - ''''
   - LEFT SHIFT
-  - {t: Z, h: Gui+Z}
-  - {t: X, h: Gui+X}
-  - {t: C, h: Gui+C}
-  - {t: V, h: Gui+V}
+  - Z
+  - X
+  - C
+  - V
   - B
   - MUTE
   - RGB TOG
