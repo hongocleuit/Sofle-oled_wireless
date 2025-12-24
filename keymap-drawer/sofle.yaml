@@ -416,7 +416,7 @@ layers:
   - ','
   - .
   - /
-  - ''
+  - {t: ▽, type: trans}
   - LCTRL
   - LEFT WIN
   - LEFT ALT
