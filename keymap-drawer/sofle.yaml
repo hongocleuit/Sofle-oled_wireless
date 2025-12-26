@@ -54,13 +54,13 @@ layers:
   - RCTRL
   - LEFT ALT
   - LEFT GUI
-  - {t: BACKSPACE, h: lower}
+  - lower
   - SPACE
   - {t: '5', h: sticky}
-  - {t: DEL, h: raise}
-  - Ctl+Alt+SPACE
+  - raise
   - {t: '5', h: sticky}
-  - RCTRL
+  - Sft+TAB
+  - Ctl+Alt+SPACE
   lower:
   - Sft+~
   - Sft+!
@@ -75,27 +75,27 @@ layers:
   - Sft+)
   - '|'
   - Gui+TAB
-  - '`'
-  - Alt+RIGHT
-  - Sft+Gui+4
+  - Gui+Q
+  - Gui+W
+  - Gui+E
   - Gui+R
   - Gui+T
-  - '['
-  - ']'
-  - Sft+(
-  - Sft+)
-  - '-'
+  - Gui+Y
+  - Gui+U
+  - Gui+I
+  - Gui+O
+  - Gui+P
   - +
   - {t: ▽, type: trans}
   - Gui+A
   - Gui+S
-  - '='
-  - '-'
-  - _
-  - LEFT
-  - DOWN
-  - UP
-  - RIGHT
+  - Gui+D
+  - Gui+F
+  - Gui+G
+  - Gui+H
+  - LEFT SHIFT
+  - Gui+K
+  - Gui+L
   - ':'
   - '"'
   - {t: ▽, type: trans}
@@ -103,11 +103,11 @@ layers:
   - Gui+X
   - Gui+C
   - Gui+V
-  - Alt+LEFT
+  - Gui+B
   - {t: ▽, type: trans}
   - RGB TOG
-  - '{'
-  - '}'
+  - Gui+N
+  - Gui+M
   - Sft+<
   - Sft+>
   - Sft+?
@@ -124,6 +124,67 @@ layers:
   - {t: ▽, type: trans}
   raise:
   - ESC
+  - '`'
+  - (
+  - )
+  - ;
+  - ','
+  - F6
+  - Gui+LEFT
+  - UP ARROW
+  - Gui+RIGHT
+  - F10
+  - F11
+  - '!'
+  - '{'
+  - ''''
+  - '"'
+  - '}'
+  - '?'
+  - ;
+  - LEFT ARROW
+  - DOWN
+  - RIGHT
+  - Sft+Gui+4
+  - F12
+  - '#'
+  - ^
+  - '='
+  - _
+  - $
+  - '*'
+  - .
+  - BACKSPACE
+  - TAB
+  - SPACE
+  - ENTER
+  - Ctl+PRINTSCREEN
+  - '@'
+  - <
+  - '|'
+  - '-'
+  - '>'
+  - \
+  - {t: '4', h: toggle}
+  - {t: ▽, type: trans}
+  - /
+  - (
+  - '['
+  - ']'
+  - )
+  - {t: ▽, type: trans}
+  - '['
+  - ']'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  adjust:
+  - ESCAPE
   - F1
   - F2
   - F3
@@ -135,115 +196,54 @@ layers:
   - F9
   - F10
   - F11
-  - Gui+TAB
-  - Gui+Q
-  - Sft+Gui+W
-  - Gui+E
-  - Gui+R
-  - Sft+Gui+T
-  - Gui+UP ARROW
-  - Gui+LEFT ARROW
-  - UP
-  - Gui+RIGHT
   - {t: ▽, type: trans}
-  - F12
-  - {t: ▽, type: trans}
-  - Gui+A
-  - Gui+S
-  - Gui+D
-  - Gui+F
-  - Gui+G
-  - Gui+DOWN ARROW
-  - LEFT
-  - DOWN
-  - RIGHT
-  - {t: ▽, type: trans}
-  - Ctl+PRINTSCREEN
-  - Gui+LEFT SHIFT
-  - Gui+Z
-  - Gui+X
-  - Gui+C
-  - Gui+V
-  - Gui+B
-  - {t: '4', h: toggle}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {type: held}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  adjust:
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
   - Alt+Gui+Ctl+LEFT
   - Ctl+Gui+UP ARROW
   - Ctl+Gui+Alt+RIGHT
   - {t: ▽, type: trans}
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - F12
+  - {t: ▽, type: trans}
   - Ctl+Gui+LEFT
   - Ctl+Gui+DOWN ARROW
   - Ctl+Gui+RIGHT
   - {t: ▽, type: trans}
-  - ''
-  - ''
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - '&remove_previous_word'
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - Gui+Sft+Alt+V
   - '&remove_previous_word'
   - RGB TOG
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - Ctl+Gui+Q
   - {t: ▽, type: trans}
-  - {type: held}
-  - ''
-  - ''
-  - ''
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   '4':
   - BT CLR
   - {t: BT, h: '0'}
@@ -298,7 +298,7 @@ layers:
   - ''
   - ''
   - ''
-  - ''
+  - {type: held}
   - ''
   - ''
   - ''
@@ -363,8 +363,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ENTER, type: held}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - DELETE
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   Win:
   - ESC
