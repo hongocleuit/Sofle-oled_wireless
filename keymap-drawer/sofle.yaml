@@ -16,7 +16,7 @@ layers:
   - TAB
   - {t: Q, h: Gui+Q}
   - {t: W, h: Gui+W}
-  - E
+  - {t: E, h: Gui+E}
   - {t: R, h: Gui+R}
   - {t: T, h: Gui+T}
   - Y
@@ -77,7 +77,7 @@ layers:
   - Gui+TAB
   - Gui+Q
   - Gui+W
-  - Gui+E
+  - Gui+Sft+4
   - Gui+R
   - Gui+T
   - Gui+Y
@@ -130,9 +130,9 @@ layers:
   - ;
   - ','
   - F6
-  - Gui+LEFT
-  - UP ARROW
-  - Gui+RIGHT
+  - F7
+  - F8
+  - F9
   - F10
   - F11
   - '!'
@@ -142,10 +142,10 @@ layers:
   - '}'
   - '?'
   - ;
-  - LEFT ARROW
-  - DOWN
-  - RIGHT
-  - Sft+Gui+4
+  - LEFT SHIFT
+  - LEFT GUI
+  - LEFT ALT
+  - LCTRL
   - F12
   - '#'
   - ^
@@ -203,9 +203,9 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - Gui+LEFT
+  - UP ARROW
+  - Gui+RIGHT
   - {t: ▽, type: trans}
   - F12
   - {t: ▽, type: trans}
@@ -215,9 +215,9 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '&remove_previous_word'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - LEFT ARROW
+  - DOWN ARROW
+  - RIGHT
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
