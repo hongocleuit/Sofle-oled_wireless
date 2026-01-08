@@ -156,11 +156,6 @@
             bindings = <&kp LG(V)>;
             key-positions = <39 40>;
         };
-
-        JK- {
-            bindings = <&kp MINUS>;
-            key-positions = <31 32>;
-        };
     };
 
     keymap {
