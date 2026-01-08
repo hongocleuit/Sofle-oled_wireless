@@ -172,10 +172,10 @@
             //               | GUI | ALT  | CTRL | LOWER|  ENTER |  | SPACE | RAISE| CTRL  | ALT   | GUI  |
 
             bindings = <
-&kp ESCAPE      &kp N1                  &kp N2              &kp N3              &kp N4              &kp N5                                             &kp N6              &kp N7           &kp N8           &kp N9             &kp N0                              &kp BACKSPACE
-&kp TAB         &longPress LG(Q) Q      &longPress LG(W) W  &longPress LG(E) E  &longPress LG(R) R  &longPress LG(T) T                                 &kp Y               &kp U            &kp I            &kp O              &kp P                               &kp BACKSLASH
-&kp LS(TAB)     &HMShiftL LEFT_SHIFT A  &HML LCTRL S        &HML LEFT_ALT D     &HML LEFT_GUI F     &DTapGG                                            &kp H               &HMR LEFT_GUI J  &HMR LEFT_ALT K  &HMR LCTRL L       &HMShiftR LS(LEFT_SHIFT) SEMICOLON  &kp SQT
-&kp LEFT_SHIFT  &kp Z                   &kp X               &kp C               &kp V               &kp B               &kp C_MUTE    &rgb_ug RGB_TOG  &longPress LG(N) N  &kp M            &kp COMMA        &kp DOT            &kp FSLH                            &kp LC(LA(LS(SPACE)))
+&kp ESCAPE      &kp N1                  &kp N2              &kp N3              &kp N4              &kp N5                                             &kp N6              &kp N7           &kp N8           &kp N9              &kp N0                              &kp BACKSPACE
+&kp TAB         &longPress LG(Q) Q      &longPress LG(W) W  &longPress LG(E) E  &longPress LG(R) R  &longPress LG(T) T                                 &kp Y               &kp U            &kp I            &longPress LG(O) O  &kp P                               &kp BACKSLASH
+&kp LS(TAB)     &HMShiftL LEFT_SHIFT A  &HML LCTRL S        &HML LEFT_ALT D     &HML LEFT_GUI F     &DTapGG                                            &kp H               &HMR LEFT_GUI J  &HMR LEFT_ALT K  &HMR LCTRL L        &HMShiftR LS(LEFT_SHIFT) SEMICOLON  &kp SQT
+&kp LEFT_SHIFT  &kp Z                   &kp X               &kp C               &kp V               &kp B               &kp C_MUTE    &rgb_ug RGB_TOG  &longPress LG(N) N  &kp M            &kp COMMA        &kp DOT             &kp FSLH                            &kp LC(LA(LS(SPACE)))
                                         &kp RCTRL           &kp LEFT_ALT        &kp LEFT_GUI        &mo 1               &kp SPACE     &sl 5            &mo 2               &sl 5            &kp LS(TAB)      &kp LC(LA(SPACE))
             >;
 
@@ -194,11 +194,11 @@
             //               |     |      |      |      |        |  |       |      |       |       |      |
 
             bindings = <
-&kp RS(TILDE)    &kp LS(EXCLAMATION)  &kp LS(AT_SIGN)  &kp LS(POUND)         &kp LS(DOLLAR)  &kp LS(PERCENT)                                    &kp RS(CARET)  &kp LS(AMPERSAND)  &kp LS(ASTERISK)   &kp LS(LEFT_PARENTHESIS)  &kp LS(RIGHT_PARENTHESIS)  &kp PIPE
-&kp LG(TAB)      &kp LG(Q)            &kp LG(W)        &kp LG(LS(NUMBER_4))  &kp LG(R)       &kp LG(T)                                          &kp LG(Y)      &kp LG(U)          &kp LG(I)          &kp LG(O)                 &kp LG(P)                  &kp PLUS
-&kp LG(LS(TAB))  &kp LG(A)            &kp LG(S)        &kp LG(D)             &kp LG(F)       &kp LG(G)                                          &kp LG(H)      &kp LEFT_SHIFT     &kp LG(K)          &kp LG(L)                 &kp COLON                  &kp DOUBLE_QUOTES
-&trans           &kp LG(Z)            &kp LG(X)        &kp LG(C)             &kp LG(V)       &kp LG(B)        &trans           &rgb_ug RGB_TOG  &kp LG(N)      &kp LG(M)          &kp LS(LESS_THAN)  &kp LS(GREATER_THAN)      &kp LS(QUESTION)           &kp BACKSLASH
-                                      &trans           &trans                &trans          &trans           &kp LG(SPACE)    &kp LG(ENTER)    &trans         &trans             &trans             &trans
+&kp RS(TILDE)    &kp LS(EXCLAMATION)  &kp LS(AT_SIGN)  &kp LS(POUND)         &kp LS(DOLLAR)  &kp LS(PERCENT)                                    &kp RS(CARET)  &kp LS(AMPERSAND)   &kp LS(ASTERISK)   &kp LS(LEFT_PARENTHESIS)  &kp LS(RIGHT_PARENTHESIS)  &kp PIPE
+&kp LG(TAB)      &kp LG(Q)            &kp LG(W)        &kp LG(LS(NUMBER_4))  &kp LG(R)       &kp LG(T)                                          &kp LG(Y)      &kp LG(LEFT_ARROW)  &kp UP_ARROW       &kp LG(RIGHT)             &kp LG(P)                  &kp PLUS
+&kp LG(LS(TAB))  &kp LG(A)            &kp LG(S)        &kp LG(D)             &kp LG(F)       &kp LG(G)                                          &kp LG(H)      &kp LEFT            &kp DOWN_ARROW     &kp RIGHT                 &kp COLON                  &kp DOUBLE_QUOTES
+&trans           &kp LG(Z)            &kp LG(X)        &kp LG(C)             &kp LG(V)       &kp LG(B)        &trans           &rgb_ug RGB_TOG  &kp LG(N)      &kp LG(M)           &kp LS(LESS_THAN)  &kp LS(GREATER_THAN)      &kp LS(QUESTION)           &kp BACKSLASH
+                                      &trans           &trans                &trans          &trans           &kp LG(SPACE)    &kp LG(ENTER)    &trans         &trans              &trans             &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>, <&knob>;
