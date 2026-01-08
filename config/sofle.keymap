@@ -26,11 +26,6 @@
             if-layers = <1 2>;
             then-layer = <3>;
         };
-
-        winadjust {
-            if-layers = <7 2>;
-            then-layer = <3>;
-        };
     };
 
     behaviors {
