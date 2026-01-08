@@ -271,7 +271,7 @@
 &kp TAB         &kp Q   &kp W      &kp E         &kp R         &kp T                               &kp Y   &kp U   &kp I        &kp O     &kp P     &kp BSLH
 &kp LS(TAB)     &kp A   &kp S      &kp D         &kp F         &kp G                               &kp H   &kp J   &kp K        &kp L     &kp SEMI  &kp SQT
 &kp LEFT_SHIFT  &kp Z   &kp X      &kp C         &kp V         &kp B          &to 4        &trans  &kp N   &kp M   &kp COMMA    &kp DOT   &kp FSLH  &kp LA(Z)
-                        &kp LCTRL  &kp LEFT_WIN  &kp LEFT_ALT  &kp BACKSPACE  &kp SPACE    &sl 5   &mo 2   &sl 5   &kp LS(TAB)  &kp RBKT
+                        &kp LCTRL  &kp LEFT_WIN  &kp LEFT_ALT  &kp BACKSPACE  &kp SPACE    &trans  &mo 2   &trans  &kp LS(TAB)  &kp RBKT
             >;
         };
     };
