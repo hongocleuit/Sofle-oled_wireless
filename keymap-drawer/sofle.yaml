@@ -25,7 +25,7 @@ layers:
   - O
   - P
   - \
-  - {t: TAB, h: LEFT SHIFT}
+  - Sft+TAB
   - {t: A, h: LEFT SHIFT}
   - {t: S, h: LCTRL}
   - {t: D, h: LEFT ALT}
@@ -50,7 +50,7 @@ layers:
   - ','
   - .
   - /
-  - RIGHT SHIFT
+  - Meh+SPACE
   - RCTRL
   - LEFT ALT
   - LEFT GUI
@@ -86,7 +86,7 @@ layers:
   - Gui+O
   - Gui+P
   - +
-  - {t: ▽, type: trans}
+  - Gui+Sft+TAB
   - Gui+A
   - Gui+S
   - Gui+D
@@ -237,10 +237,10 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   - Ctl+Gui+Q
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -391,7 +391,7 @@ layers:
   - O
   - P
   - \
-  - {t: ▽, type: trans}
+  - Sft+TAB
   - A
   - S
   - D
@@ -416,17 +416,78 @@ layers:
   - ','
   - .
   - /
-  - ''
+  - Alt+Z
   - LCTRL
   - LEFT WIN
   - LEFT ALT
-  - {t: BACKSPACE, h: LCTRL}
+  - '7'
   - SPACE
   - {t: '5', h: sticky}
-  - DELETE
-  - {t: ▽, type: trans}
-  - '['
+  - raise
+  - {t: '5', h: sticky}
+  - Sft+TAB
   - ']'
+  '7':
+  - Sft+~
+  - '!'
+  - '@'
+  - '#'
+  - $
+  - '%'
+  - ^
+  - '&'
+  - '*'
+  - (
+  - )
+  - '|'
+  - TAB
+  - Q
+  - W
+  - E
+  - R
+  - T
+  - Y
+  - U
+  - I
+  - O
+  - P
+  - +
+  - Sft+TAB
+  - A
+  - S
+  - D
+  - F
+  - G
+  - H
+  - J
+  - K
+  - L
+  - ':'
+  - '"'
+  - LSHFT
+  - Z
+  - X
+  - C
+  - V
+  - B
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - N
+  - M
+  - <
+  - '>'
+  - /
+  - {t: ▽, type: trans}
+  - LCTRL
+  - LEFT WIN
+  - Ctl+Sft+LEFT ALT
+  - {type: held}
+  - Alt+Sft+SPACE
+  - Ctl+ENTER
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
 combos:
 - p: [38, 37]
   k: Gui+Z
