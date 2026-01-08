@@ -22,7 +22,7 @@ layers:
   - Y
   - U
   - I
-  - O
+  - {t: O, h: Gui+O}
   - P
   - \
   - Sft+TAB
@@ -81,9 +81,9 @@ layers:
   - Gui+R
   - Gui+T
   - Gui+Y
-  - Gui+U
-  - Gui+I
-  - Gui+O
+  - Gui+LEFT ARROW
+  - UP ARROW
+  - Gui+RIGHT
   - Gui+P
   - +
   - Gui+Sft+TAB
@@ -93,9 +93,9 @@ layers:
   - Gui+F
   - Gui+G
   - Gui+H
-  - LEFT SHIFT
-  - Gui+K
-  - Gui+L
+  - LEFT
+  - DOWN ARROW
+  - RIGHT
   - ':'
   - '"'
   - {t: ▽, type: trans}
