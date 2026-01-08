@@ -422,9 +422,9 @@ layers:
   - LEFT ALT
   - BACKSPACE
   - SPACE
-  - {t: '5', h: sticky}
+  - {t: ▽, type: trans}
   - raise
-  - {t: '5', h: sticky}
+  - {t: ▽, type: trans}
   - Sft+TAB
   - ']'
 combos:
