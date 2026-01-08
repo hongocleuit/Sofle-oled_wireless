@@ -26,6 +26,11 @@
             if-layers = <1 2>;
             then-layer = <3>;
         };
+
+        winadjust {
+            if-layers = <7 2>;
+            then-layer = <3>;
+        };
     };
 
     behaviors {
@@ -177,11 +182,11 @@
             //               | GUI | ALT  | CTRL | LOWER|  ENTER |  | SPACE | RAISE| CTRL  | ALT   | GUI  |
 
             bindings = <
-&kp ESCAPE                 &kp N1                  &kp N2              &kp N3              &kp N4              &kp N5                                             &kp N6              &kp N7           &kp N8           &kp N9             &kp N0                              &kp BACKSPACE
-&kp TAB                    &longPress LG(Q) Q      &longPress LG(W) W  &longPress LG(E) E  &longPress LG(R) R  &longPress LG(T) T                                 &kp Y               &kp U            &kp I            &kp O              &kp P                               &kp BACKSLASH
-&longPress LEFT_SHIFT TAB  &HMShiftL LEFT_SHIFT A  &HML LCTRL S        &HML LEFT_ALT D     &HML LEFT_GUI F     &DTapGG                                            &kp H               &HMR LEFT_GUI J  &HMR LEFT_ALT K  &HMR LCTRL L       &HMShiftR LS(LEFT_SHIFT) SEMICOLON  &kp SQT
-&kp LEFT_SHIFT             &kp Z                   &kp X               &kp C               &kp V               &kp B               &kp C_MUTE    &rgb_ug RGB_TOG  &longPress LG(N) N  &kp M            &kp COMMA        &kp DOT            &kp FSLH                            &kp RIGHT_SHIFT
-                                                   &kp RCTRL           &kp LEFT_ALT        &kp LEFT_GUI        &mo 1               &kp SPACE     &sl 5            &mo 2               &sl 5            &kp LS(TAB)      &kp LC(LA(SPACE))
+&kp ESCAPE      &kp N1                  &kp N2              &kp N3              &kp N4              &kp N5                                             &kp N6              &kp N7           &kp N8           &kp N9             &kp N0                              &kp BACKSPACE
+&kp TAB         &longPress LG(Q) Q      &longPress LG(W) W  &longPress LG(E) E  &longPress LG(R) R  &longPress LG(T) T                                 &kp Y               &kp U            &kp I            &kp O              &kp P                               &kp BACKSLASH
+&kp LS(TAB)     &HMShiftL LEFT_SHIFT A  &HML LCTRL S        &HML LEFT_ALT D     &HML LEFT_GUI F     &DTapGG                                            &kp H               &HMR LEFT_GUI J  &HMR LEFT_ALT K  &HMR LCTRL L       &HMShiftR LS(LEFT_SHIFT) SEMICOLON  &kp SQT
+&kp LEFT_SHIFT  &kp Z                   &kp X               &kp C               &kp V               &kp B               &kp C_MUTE    &rgb_ug RGB_TOG  &longPress LG(N) N  &kp M            &kp COMMA        &kp DOT            &kp FSLH                            &kp LC(LA(LS(SPACE)))
+                                        &kp RCTRL           &kp LEFT_ALT        &kp LEFT_GUI        &mo 1               &kp SPACE     &sl 5            &mo 2               &sl 5            &kp LS(TAB)      &kp LC(LA(SPACE))
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP>, <&light>;
@@ -199,11 +204,11 @@
             //               |     |      |      |      |        |  |       |      |       |       |      |
 
             bindings = <
-&kp RS(TILDE)  &kp LS(EXCLAMATION)  &kp LS(AT_SIGN)  &kp LS(POUND)         &kp LS(DOLLAR)  &kp LS(PERCENT)                                    &kp RS(CARET)  &kp LS(AMPERSAND)  &kp LS(ASTERISK)   &kp LS(LEFT_PARENTHESIS)  &kp LS(RIGHT_PARENTHESIS)  &kp PIPE
-&kp LG(TAB)    &kp LG(Q)            &kp LG(W)        &kp LG(LS(NUMBER_4))  &kp LG(R)       &kp LG(T)                                          &kp LG(Y)      &kp LG(U)          &kp LG(I)          &kp LG(O)                 &kp LG(P)                  &kp PLUS
-&trans         &kp LG(A)            &kp LG(S)        &kp LG(D)             &kp LG(F)       &kp LG(G)                                          &kp LG(H)      &kp LEFT_SHIFT     &kp LG(K)          &kp LG(L)                 &kp COLON                  &kp DOUBLE_QUOTES
-&trans         &kp LG(Z)            &kp LG(X)        &kp LG(C)             &kp LG(V)       &kp LG(B)        &trans           &rgb_ug RGB_TOG  &kp LG(N)      &kp LG(M)          &kp LS(LESS_THAN)  &kp LS(GREATER_THAN)      &kp LS(QUESTION)           &kp BACKSLASH
-                                    &trans           &trans                &trans          &trans           &kp LG(SPACE)    &kp LG(ENTER)    &trans         &trans             &trans             &trans
+&kp RS(TILDE)    &kp LS(EXCLAMATION)  &kp LS(AT_SIGN)  &kp LS(POUND)         &kp LS(DOLLAR)  &kp LS(PERCENT)                                    &kp RS(CARET)  &kp LS(AMPERSAND)  &kp LS(ASTERISK)   &kp LS(LEFT_PARENTHESIS)  &kp LS(RIGHT_PARENTHESIS)  &kp PIPE
+&kp LG(TAB)      &kp LG(Q)            &kp LG(W)        &kp LG(LS(NUMBER_4))  &kp LG(R)       &kp LG(T)                                          &kp LG(Y)      &kp LG(U)          &kp LG(I)          &kp LG(O)                 &kp LG(P)                  &kp PLUS
+&kp LG(LS(TAB))  &kp LG(A)            &kp LG(S)        &kp LG(D)             &kp LG(F)       &kp LG(G)                                          &kp LG(H)      &kp LEFT_SHIFT     &kp LG(K)          &kp LG(L)                 &kp COLON                  &kp DOUBLE_QUOTES
+&trans           &kp LG(Z)            &kp LG(X)        &kp LG(C)             &kp LG(V)       &kp LG(B)        &trans           &rgb_ug RGB_TOG  &kp LG(N)      &kp LG(M)          &kp LS(LESS_THAN)  &kp LS(GREATER_THAN)      &kp LS(QUESTION)           &kp BACKSLASH
+                                      &trans           &trans                &trans          &trans           &kp LG(SPACE)    &kp LG(ENTER)    &trans         &trans             &trans             &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>, <&knob>;
@@ -272,11 +277,21 @@
 
         Win {
             bindings = <
-&kp ESC         &kp N1  &kp N2     &kp N3        &kp N4        &kp N5                                    &kp N6      &kp N7  &kp N8     &kp N9    &kp N0    &kp BSPC
-&kp TAB         &kp Q   &kp W      &kp E         &kp R         &kp T                                     &kp Y       &kp U   &kp I      &kp O     &kp P     &kp BSLH
-&trans          &kp A   &kp S      &kp D         &kp F         &kp G                                     &kp H       &kp J   &kp K      &kp L     &kp SEMI  &kp SQT
-&kp LEFT_SHIFT  &kp Z   &kp X      &kp C         &kp V         &kp B                &to 4        &trans  &kp N       &kp M   &kp COMMA  &kp DOT   &kp FSLH  &none
-                        &kp LCTRL  &kp LEFT_WIN  &kp LEFT_ALT  &mt LCTRL BACKSPACE  &kp SPACE    &sl 5   &kp DELETE  &trans  &kp LBKT   &kp RBKT
+&kp ESC         &kp N1  &kp N2     &kp N3        &kp N4        &kp N5                       &kp N6  &kp N7  &kp N8       &kp N9    &kp N0    &kp BSPC
+&kp TAB         &kp Q   &kp W      &kp E         &kp R         &kp T                        &kp Y   &kp U   &kp I        &kp O     &kp P     &kp BSLH
+&kp LS(TAB)     &kp A   &kp S      &kp D         &kp F         &kp G                        &kp H   &kp J   &kp K        &kp L     &kp SEMI  &kp SQT
+&kp LEFT_SHIFT  &kp Z   &kp X      &kp C         &kp V         &kp B   &to 4        &trans  &kp N   &kp M   &kp COMMA    &kp DOT   &kp FSLH  &kp LA(Z)
+                        &kp LCTRL  &kp LEFT_WIN  &kp LEFT_ALT  &mo 7   &kp SPACE    &sl 5   &mo 2   &sl 5   &kp LS(TAB)  &kp RBKT
+            >;
+        };
+
+        layer_7 {
+            bindings = <
+&kp RS(TILDE)  &kp EXCLAMATION  &kp AT_SIGN  &kp HASH      &kp DOLLAR            &kp PERCENT                                      &kp CARET  &kp AMPERSAND  &kp ASTERISK   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp PIPE
+&kp TAB        &kp Q            &kp W        &kp E         &kp R                 &kp T                                            &kp Y      &kp U          &kp I          &kp O                 &kp P                  &kp PLUS
+&kp LS(TAB)    &kp A            &kp S        &kp D         &kp F                 &kp G                                            &kp H      &kp J          &kp K          &kp L                 &kp COLON              &kp DOUBLE_QUOTES
+&kp LSHFT      &kp Z            &kp X        &kp C         &kp V                 &kp B        &trans               &trans         &kp N      &kp M          &kp LESS_THAN  &kp GREATER_THAN      &kp FSLH               &trans
+                                &kp LCTRL    &kp LEFT_WIN  &kp RC(LS(LEFT_ALT))  &trans       &kp LA(LS(SPACE))    &kp LC(ENTER)  &trans     &trans         &trans         &trans
             >;
         };
     };
