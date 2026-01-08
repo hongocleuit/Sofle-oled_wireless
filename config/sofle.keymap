@@ -272,21 +272,11 @@
 
         Win {
             bindings = <
-&kp ESC         &kp N1  &kp N2     &kp N3        &kp N4        &kp N5                       &kp N6  &kp N7  &kp N8       &kp N9    &kp N0    &kp BSPC
-&kp TAB         &kp Q   &kp W      &kp E         &kp R         &kp T                        &kp Y   &kp U   &kp I        &kp O     &kp P     &kp BSLH
-&kp LS(TAB)     &kp A   &kp S      &kp D         &kp F         &kp G                        &kp H   &kp J   &kp K        &kp L     &kp SEMI  &kp SQT
-&kp LEFT_SHIFT  &kp Z   &kp X      &kp C         &kp V         &kp B   &to 4        &trans  &kp N   &kp M   &kp COMMA    &kp DOT   &kp FSLH  &kp LA(Z)
-                        &kp LCTRL  &kp LEFT_WIN  &kp LEFT_ALT  &mo 7   &kp SPACE    &sl 5   &mo 2   &sl 5   &kp LS(TAB)  &kp RBKT
-            >;
-        };
-
-        layer_7 {
-            bindings = <
-&kp RS(TILDE)  &kp EXCLAMATION  &kp AT_SIGN  &kp HASH      &kp DOLLAR            &kp PERCENT                                      &kp CARET  &kp AMPERSAND  &kp ASTERISK   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp PIPE
-&kp TAB        &kp Q            &kp W        &kp E         &kp R                 &kp T                                            &kp Y      &kp U          &kp I          &kp O                 &kp P                  &kp PLUS
-&kp LS(TAB)    &kp A            &kp S        &kp D         &kp F                 &kp G                                            &kp H      &kp J          &kp K          &kp L                 &kp COLON              &kp DOUBLE_QUOTES
-&kp LSHFT      &kp Z            &kp X        &kp C         &kp V                 &kp B        &trans               &trans         &kp N      &kp M          &kp LESS_THAN  &kp GREATER_THAN      &kp QUESTION           &kp NON_US_BACKSLASH
-                                &kp LCTRL    &kp LEFT_WIN  &kp RC(LS(LEFT_ALT))  &trans       &kp LA(LS(SPACE))    &kp LC(ENTER)  &trans     &trans         &trans         &trans
+&kp ESC         &kp N1  &kp N2     &kp N3        &kp N4        &kp N5                              &kp N6  &kp N7  &kp N8       &kp N9    &kp N0    &kp BSPC
+&kp TAB         &kp Q   &kp W      &kp E         &kp R         &kp T                               &kp Y   &kp U   &kp I        &kp O     &kp P     &kp BSLH
+&kp LS(TAB)     &kp A   &kp S      &kp D         &kp F         &kp G                               &kp H   &kp J   &kp K        &kp L     &kp SEMI  &kp SQT
+&kp LEFT_SHIFT  &kp Z   &kp X      &kp C         &kp V         &kp B          &to 4        &trans  &kp N   &kp M   &kp COMMA    &kp DOT   &kp FSLH  &kp LA(Z)
+                        &kp LCTRL  &kp LEFT_WIN  &kp LEFT_ALT  &kp BACKSPACE  &kp SPACE    &sl 5   &mo 2   &sl 5   &kp LS(TAB)  &kp RBKT
             >;
         };
     };
