@@ -476,8 +476,8 @@ layers:
   - M
   - <
   - '>'
-  - /
-  - {t: ▽, type: trans}
+  - '?'
+  - \
   - LCTRL
   - LEFT WIN
   - Ctl+Sft+LEFT ALT
