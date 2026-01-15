@@ -84,7 +84,7 @@ layers:
   - Gui+LEFT ARROW
   - UP ARROW
   - Gui+RIGHT
-  - Gui+P
+  - '-'
   - +
   - Gui+Sft+TAB
   - Gui+A
