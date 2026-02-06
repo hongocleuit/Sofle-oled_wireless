@@ -101,11 +101,11 @@
             quick-tap-ms = <350>;
         };
 
-        DTapQQ: DTapQQ {
+        DTapBB: DTapBB {
             compatible = "zmk,behavior-tap-dance";
-            label = "DTAPQQ";
+            label = "DTAPBB";
             #binding-cells = <0>;
-            bindings = <&kp Q>, <&kp AT_SIGN>;
+            bindings = <&kp B>, <&kp AT_SIGN>;
         };
 
         TTap_Delete: TTap_Delete {
@@ -171,9 +171,9 @@
 
             bindings = <
 &kp ESCAPE      &kp N1                  &kp N2              &kp N3              &kp N4              &kp N5                                             &kp N6              &kp N7           &kp N8           &kp N9              &kp N0                              &kp BACKSPACE
-&kp TAB         &DTapQQ                 &longPress LG(W) W  &longPress LG(E) E  &longPress LG(R) R  &longPress LG(T) T                                 &kp Y               &kp U            &kp I            &longPress LG(O) O  &kp P                               &kp BACKSLASH
+&kp TAB         &longPress LG(LS(Q)) Q  &longPress LG(W) W  &longPress LG(E) E  &longPress LG(R) R  &longPress LG(T) T                                 &kp Y               &kp U            &kp I            &longPress LG(O) O  &kp P                               &kp BACKSLASH
 &kp LS(TAB)     &HMShiftL LEFT_SHIFT A  &HML LCTRL S        &HML LEFT_ALT D     &HML LEFT_GUI F     &kp G                                              &kp H               &HMR LEFT_GUI J  &HMR LEFT_ALT K  &HMR LCTRL L        &HMShiftR LS(LEFT_SHIFT) SEMICOLON  &kp SQT
-&kp LEFT_SHIFT  &kp Z                   &kp X               &kp C               &kp V               &kp B               &kp C_MUTE    &rgb_ug RGB_TOG  &longPress LG(N) N  &kp M            &kp COMMA        &kp DOT             &kp FSLH                            &kp LC(LA(LS(SPACE)))
+&kp LEFT_SHIFT  &kp Z                   &kp X               &kp C               &kp V               &DTapBB             &kp C_MUTE    &rgb_ug RGB_TOG  &longPress LG(N) N  &kp M            &kp COMMA        &kp DOT             &kp FSLH                            &kp LC(LA(LS(SPACE)))
                                         &kp RCTRL           &kp LEFT_ALT        &kp LEFT_GUI        &mo 1               &kp SPACE     &sl 5            &mo 2               &sl 5            &kp LS(TAB)      &kp LC(LA(SPACE))
             >;
 
@@ -248,7 +248,7 @@
 &bt BT_CLR         &bt BT_SEL 0     &bt BT_SEL 1     &bt BT_SEL 2     &bt BT_SEL 3     &bt BT_SEL 4                     &none  &none  &none  &none  &none           &none
 &rgb_ug RGB_TOG    &rgb_ug RGB_HUD  &rgb_ug RGB_HUI  &rgb_ug RGB_SAD  &rgb_ug RGB_SAI  &rgb_ug RGB_EFF                  &none  &none  &none  &none  &none           &none
 &ext_power EP_TOG  &rgb_ug RGB_BRD  &rgb_ug RGB_BRI  &none            &none            &none                            &none  &none  &none  &none  &none           &none
-&none              &none            &none            &none            &none            &none            &to 0    &to 6  &none  &none  &none  &none  &msc SCRL_DOWN  &none
+&none              &none            &none            &none            &none            &none            &to 0    &to 0  &none  &none  &none  &none  &msc SCRL_DOWN  &none
                                     &none            &none            &none            &none            &none    &none  &none  &none  &none  &none
             >;
         };
@@ -260,16 +260,6 @@
 &trans  &trans  &trans  &trans  &trans  &trans                       &trans  &trans      &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans     &trans  &trans      &trans  &trans  &trans  &trans
                 &trans  &trans  &trans  &trans  &trans    &kp ENTER  &trans  &kp DELETE  &trans  &trans
-            >;
-        };
-
-        Win {
-            bindings = <
-&kp ESC         &kp N1  &kp N2     &kp N3        &kp N4        &kp N5                              &kp N6  &kp N7  &kp N8       &kp N9    &kp N0    &kp BSPC
-&kp TAB         &kp Q   &kp W      &kp E         &kp R         &kp T                               &kp Y   &kp U   &kp I        &kp O     &kp P     &kp BSLH
-&kp LS(TAB)     &kp A   &kp S      &kp D         &kp F         &kp G                               &kp H   &kp J   &kp K        &kp L     &kp SEMI  &kp SQT
-&kp LEFT_SHIFT  &kp Z   &kp X      &kp C         &kp V         &kp B          &to 4        &trans  &kp N   &kp M   &kp COMMA    &kp DOT   &kp FSLH  &kp LA(Z)
-                        &kp LCTRL  &kp LEFT_WIN  &kp LEFT_ALT  &kp BACKSPACE  &kp SPACE    &trans  &mo 2   &trans  &kp LS(TAB)  &kp RBKT
             >;
         };
     };
