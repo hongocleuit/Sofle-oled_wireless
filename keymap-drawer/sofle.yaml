@@ -14,7 +14,7 @@ layers:
   - '0'
   - BACKSPACE
   - TAB
-  - {t: Q, h: Gui+Q}
+  - '&DTapQQ'
   - {t: W, h: Gui+W}
   - {t: E, h: Gui+E}
   - {t: R, h: Gui+R}
@@ -30,7 +30,7 @@ layers:
   - {t: S, h: LCTRL}
   - {t: D, h: LEFT ALT}
   - {t: F, h: LEFT GUI}
-  - '&DTapGG'
+  - G
   - H
   - {t: J, h: LEFT GUI}
   - {t: K, h: LEFT ALT}
