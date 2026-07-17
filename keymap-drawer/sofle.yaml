@@ -14,28 +14,28 @@ layers:
   - '0'
   - BACKSPACE
   - TAB
-  - '&DTapQQ'
-  - {t: W, h: Gui+W}
-  - {t: E, h: Gui+E}
+  - Q
+  - W
+  - E
   - {t: R, h: Gui+R}
-  - {t: T, h: Gui+T}
+  - T
   - Y
   - U
   - I
-  - {t: O, h: Gui+O}
+  - O
   - P
   - \
   - Sft+TAB
-  - {t: A, h: LEFT SHIFT}
-  - {t: S, h: LCTRL}
-  - {t: D, h: LEFT ALT}
-  - {t: F, h: LEFT GUI}
+  - {t: A, h: LCTRL}
+  - {t: S, h: Sft+LEFT ALT}
+  - {t: D, h: LEFT GUI}
+  - {t: F, h: LEFT SHIFT}
   - G
   - H
-  - {t: J, h: LEFT GUI}
-  - {t: K, h: LEFT ALT}
-  - {t: L, h: LCTRL}
-  - {t: ;, h: Sft+LEFT SHIFT}
+  - {t: J, h: LEFT SHIFT}
+  - {t: K, h: LEFT GUI}
+  - {t: L, h: Sft+LEFT ALT}
+  - {t: ;, h: Sft+LCTRL}
   - ''''
   - LEFT SHIFT
   - Z
@@ -55,7 +55,7 @@ layers:
   - LEFT ALT
   - LEFT GUI
   - lower
-  - SPACE
+  - {t: Sft+SPACE, h: '5'}
   - {t: '5', h: sticky}
   - raise
   - {t: '5', h: sticky}
@@ -80,7 +80,7 @@ layers:
   - Gui+Sft+4
   - Gui+R
   - Gui+T
-  - Gui+Y
+  - {t: ▽, type: trans}
   - Gui+LEFT ARROW
   - UP ARROW
   - Gui+RIGHT
@@ -89,10 +89,10 @@ layers:
   - Gui+Sft+TAB
   - Gui+A
   - Gui+S
-  - Gui+D
+  - {t: ▽, type: trans}
   - Gui+F
   - Gui+G
-  - Gui+H
+  - {t: ▽, type: trans}
   - LEFT
   - DOWN ARROW
   - RIGHT
@@ -107,7 +107,7 @@ layers:
   - {t: ▽, type: trans}
   - RGB TOG
   - Gui+N
-  - Gui+M
+  - {t: ▽, type: trans}
   - Sft+<
   - Sft+>
   - Sft+?
@@ -129,24 +129,24 @@ layers:
   - )
   - ;
   - ','
-  - F6
-  - F7
-  - F8
-  - F9
-  - F10
-  - F11
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - '!'
+  - '['
   - '{'
-  - ''''
-  - '"'
   - '}'
+  - ']'
   - '?'
-  - ;
-  - LEFT SHIFT
-  - LEFT GUI
-  - LEFT ALT
-  - LCTRL
-  - F12
+  - .
+  - DEL
+  - Sft+TAB
+  - INSERT
+  - ESCAPE
+  - {t: ▽, type: trans}
   - '#'
   - ^
   - '='
@@ -158,8 +158,8 @@ layers:
   - TAB
   - SPACE
   - ENTER
-  - Ctl+PRINTSCREEN
-  - '@'
+  - {t: ▽, type: trans}
+  - '~'
   - <
   - '|'
   - '-'
@@ -167,14 +167,14 @@ layers:
   - \
   - {t: '4', h: toggle}
   - {t: ▽, type: trans}
-  - /
-  - (
-  - '['
-  - ']'
-  - )
+  - ;
+  - '"'
+  - ''''
+  - '`'
+  - \
   - {t: ▽, type: trans}
-  - '['
-  - ']'
+  - ''''
+  - '"'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -288,7 +288,7 @@ layers:
   - ''
   - ''
   - {t: default, h: toggle}
-  - {t: Win, h: toggle}
+  - {t: default, h: toggle}
   - ''
   - ''
   - ''
@@ -318,56 +318,19 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - Sft+~
+  - Sft+!
+  - Sft+@
+  - Sft+#
+  - Sft+$
+  - Sft+%
+  - Sft+^
+  - Sft+&
+  - Sft+*
+  - Sft+(
+  - Sft+)
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ENTER, type: held}
-  - {t: ▽, type: trans}
-  - DELETE
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  Win:
-  - ESC
   - '1'
   - '2'
   - '3'
@@ -378,55 +341,31 @@ layers:
   - '8'
   - '9'
   - '0'
-  - BSPC
-  - TAB
-  - Q
-  - W
-  - E
-  - R
-  - T
-  - Y
-  - U
-  - I
-  - O
-  - P
-  - \
-  - Sft+TAB
-  - A
-  - S
-  - D
-  - F
-  - G
-  - H
-  - J
-  - K
-  - L
-  - ;
-  - ''''
-  - LEFT SHIFT
-  - Z
-  - X
-  - C
-  - V
-  - B
-  - {t: '4', h: toggle}
   - {t: ▽, type: trans}
-  - N
-  - M
-  - ','
-  - .
-  - /
-  - Alt+Z
-  - LCTRL
-  - LEFT WIN
-  - LEFT ALT
-  - BACKSPACE
-  - SPACE
   - {t: ▽, type: trans}
-  - raise
   - {t: ▽, type: trans}
-  - Sft+TAB
-  - ']'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
+  - ENTER
+  - {t: ▽, type: trans}
+  - DELETE
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
 combos:
 - p: [38, 37]
   k: Gui+Z
